@@ -1,0 +1,12 @@
+D:\Project\6.0\CRUD\CRUD.BLL.Abstraction\bin\Debug\net6.0\CRUD.BLL.Abstraction.deps.json
+D:\Project\6.0\CRUD\CRUD.BLL.Abstraction\bin\Debug\net6.0\CRUD.BLL.Abstraction.dll
+D:\Project\6.0\CRUD\CRUD.BLL.Abstraction\bin\Debug\net6.0\ref\CRUD.BLL.Abstraction.dll
+D:\Project\6.0\CRUD\CRUD.BLL.Abstraction\bin\Debug\net6.0\CRUD.BLL.Abstraction.pdb
+D:\Project\6.0\CRUD\CRUD.BLL.Abstraction\obj\Debug\net6.0\CRUD.BLL.Abstraction.csproj.AssemblyReference.cache
+D:\Project\6.0\CRUD\CRUD.BLL.Abstraction\obj\Debug\net6.0\CRUD.BLL.Abstraction.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\6.0\CRUD\CRUD.BLL.Abstraction\obj\Debug\net6.0\CRUD.BLL.Abstraction.AssemblyInfoInputs.cache
+D:\Project\6.0\CRUD\CRUD.BLL.Abstraction\obj\Debug\net6.0\CRUD.BLL.Abstraction.AssemblyInfo.cs
+D:\Project\6.0\CRUD\CRUD.BLL.Abstraction\obj\Debug\net6.0\CRUD.BLL.Abstraction.csproj.CoreCompileInputs.cache
+D:\Project\6.0\CRUD\CRUD.BLL.Abstraction\obj\Debug\net6.0\CRUD.BLL.Abstraction.dll
+D:\Project\6.0\CRUD\CRUD.BLL.Abstraction\obj\Debug\net6.0\ref\CRUD.BLL.Abstraction.dll
+D:\Project\6.0\CRUD\CRUD.BLL.Abstraction\obj\Debug\net6.0\CRUD.BLL.Abstraction.pdb

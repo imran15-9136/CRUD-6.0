@@ -1,0 +1,11 @@
+D:\Project\6.0\CRUD\CRUD.Repository\bin\Debug\net6.0\CRUD.Repository.deps.json
+D:\Project\6.0\CRUD\CRUD.Repository\bin\Debug\net6.0\CRUD.Repository.dll
+D:\Project\6.0\CRUD\CRUD.Repository\bin\Debug\net6.0\ref\CRUD.Repository.dll
+D:\Project\6.0\CRUD\CRUD.Repository\bin\Debug\net6.0\CRUD.Repository.pdb
+D:\Project\6.0\CRUD\CRUD.Repository\obj\Debug\net6.0\CRUD.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\6.0\CRUD\CRUD.Repository\obj\Debug\net6.0\CRUD.Repository.AssemblyInfoInputs.cache
+D:\Project\6.0\CRUD\CRUD.Repository\obj\Debug\net6.0\CRUD.Repository.AssemblyInfo.cs
+D:\Project\6.0\CRUD\CRUD.Repository\obj\Debug\net6.0\CRUD.Repository.csproj.CoreCompileInputs.cache
+D:\Project\6.0\CRUD\CRUD.Repository\obj\Debug\net6.0\CRUD.Repository.dll
+D:\Project\6.0\CRUD\CRUD.Repository\obj\Debug\net6.0\ref\CRUD.Repository.dll
+D:\Project\6.0\CRUD\CRUD.Repository\obj\Debug\net6.0\CRUD.Repository.pdb
