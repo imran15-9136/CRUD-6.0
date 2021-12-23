@@ -40,7 +40,7 @@ namespace CRUD.Controllers
 
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateAsync(int id, [FromBody] ItemCategory category)
         {
             var data = await _categoryManager.GetByIdAsync(id);
