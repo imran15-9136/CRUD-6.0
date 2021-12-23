@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CRUD.Repository.Abstraction\CRUD.Repository.Abstraction.csproj" />
+  </ItemGroup>
+
 </Project>

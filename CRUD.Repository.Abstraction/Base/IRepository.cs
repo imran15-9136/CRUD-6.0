@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CRUD.Repository.Abstraction.Base
 {
-    public interface IRepository
+    public interface IRepository<T> where T : class
     {
     }
 }
