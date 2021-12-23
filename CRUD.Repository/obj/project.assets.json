@@ -608,6 +608,9 @@
       "CRUD.Repository.Abstraction/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Models": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CRUD.Repository.Abstraction.dll": {}
         },
