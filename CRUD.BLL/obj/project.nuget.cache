@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d34Nq0j5XCYPYJKvW/QnZXxJIh5drzEC1awaMMnydSK5htaxibSOwK6QA3QrRbhWjLJsNXl9+OU78IdDbdTjiw==",
+  "dgSpecHash": "2QOs8snZOPiObQ7CCu53/KfIK1PDtMvuONgrvALPOhZXp90zHNhrbi9FkgmbAb7Epm9n4/2G0zaV4cjdqu2Y/Q==",
   "success": true,
-  "projectFilePath": "D:\\Project\\6.0\\CRUD\\CRUD.BLL\\CRUD.BLL.csproj",
+  "projectFilePath": "D:\\C#\\CRUD-6.0\\CRUD.BLL\\CRUD.BLL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

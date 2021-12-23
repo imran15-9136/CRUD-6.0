@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J6c+cryJ5hDsudr7pSE9UmTWoDdZTQM1DOPmABPWmA//LxT5MMkGAHr4blqLzPGQkLMyiXRfD/BWY7GDh0POZg==",
+  "dgSpecHash": "z62mMHb9Ka/158trdwAJkubunn8VDfwjND2nhL8D1qaKiNHjh8RBsHGHFKrub33HOzwKlcy61+SUG2R9gD4RXQ==",
   "success": true,
-  "projectFilePath": "D:\\Project\\6.0\\CRUD\\Models\\Models.csproj",
+  "projectFilePath": "D:\\C#\\CRUD-6.0\\Models\\Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

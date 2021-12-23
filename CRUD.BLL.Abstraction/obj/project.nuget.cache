@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UC84G39rnOtfzyIO2nc0ueft6Y5ChSpSIV0pn5uF+V3Ujfz1hdiQmjehB+TQ72YdOQQfrPQny7j0cNnKwARxEg==",
+  "dgSpecHash": "4/qqDGpJtbPCM6qZUbnF0rOIupbAm7dljSjGsRlaitQLgfRUStzZ/vp4tkn4o/mJ9LZVOK8RoIWE8G5gKWTdjQ==",
   "success": true,
-  "projectFilePath": "D:\\Project\\6.0\\CRUD\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj",
+  "projectFilePath": "D:\\C#\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

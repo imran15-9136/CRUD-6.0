@@ -39,5 +39,36 @@ namespace CRUD.Controllers
             return NotFound();
 
         }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateAsync(int id, [FromBody] ItemCategory category)
+        {
+            var data = await _categoryManager.GetByIdAsync(id);
+            if (data!=null)
+            {
+                var result = await _categoryManager.UpdateAsync(category);
+                if (result.Succeeded)
+                {
+                    return Ok(result);
+                }
+                return BadRequest(result);
+            }
+            return NotFound();
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> RemoveAsync(int id)
+        {
+            if (id!=null)
+            {
+                var result = await _categoryManager.RemoveAsync(id);
+                if (result.Succeeded)
+                {
+                    return Ok();
+                }
+                return BadRequest();
+            }
+            return NotFound();
+        }
     }
 }
