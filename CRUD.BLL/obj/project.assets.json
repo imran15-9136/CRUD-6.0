@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "CRUD.BLL.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CRUD.BLL.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUD.BLL.Abstraction.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CRUD.BLL.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../CRUD.BLL.Abstraction/CRUD.BLL.Abstraction.csproj",
+      "msbuildProject": "../CRUD.BLL.Abstraction/CRUD.BLL.Abstraction.csproj"
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "CRUD.BLL.Abstraction >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\User\\.nuget\\packages\\": {}
@@ -33,7 +70,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Project\\6.0\\CRUD\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj": {
+              "projectPath": "D:\\Project\\6.0\\CRUD\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
