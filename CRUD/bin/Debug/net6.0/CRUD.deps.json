@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "CRUD/1.0.0": {
         "dependencies": {
+          "CRUD.BLL.Abstraction": "1.0.0",
           "Database": "1.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.1",
           "Swashbuckle.AspNetCore": "6.2.3"
@@ -465,6 +466,14 @@
           }
         }
       },
+      "CRUD.BLL.Abstraction/1.0.0": {
+        "dependencies": {
+          "Models": "1.0.0"
+        },
+        "runtime": {
+          "CRUD.BLL.Abstraction.dll": {}
+        }
+      },
       "Database/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.1",
@@ -832,6 +841,11 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "CRUD.BLL.Abstraction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Database/1.0.0": {
       "type": "project",

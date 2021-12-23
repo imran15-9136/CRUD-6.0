@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "CRUD.BLL.Abstraction/1.0.0": {
+        "dependencies": {
+          "Models": "1.0.0"
+        },
         "runtime": {
           "CRUD.BLL.Abstraction.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "runtime": {
+          "Models.dll": {}
         }
       }
     }
   },
   "libraries": {
     "CRUD.BLL.Abstraction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

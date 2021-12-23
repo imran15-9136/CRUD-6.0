@@ -62,3 +62,5 @@ D:\Project\6.0\CRUD\CRUD\bin\Debug\net6.0\Database.pdb
 D:\Project\6.0\CRUD\CRUD\bin\Debug\net6.0\Models.pdb
 D:\Project\6.0\CRUD\CRUD\bin\Debug\net6.0\Humanizer.dll
 D:\Project\6.0\CRUD\CRUD\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Project\6.0\CRUD\CRUD\bin\Debug\net6.0\CRUD.BLL.Abstraction.dll
+D:\Project\6.0\CRUD\CRUD\bin\Debug\net6.0\CRUD.BLL.Abstraction.pdb
