@@ -9,6 +9,7 @@
       "CRUD/1.0.0": {
         "dependencies": {
           "CRUD.BLL.Abstraction": "1.0.0",
+          "CRUD.Configuration": "1.0.0",
           "Database": "1.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.1",
           "Swashbuckle.AspNetCore": "6.2.3"
@@ -466,12 +467,50 @@
           }
         }
       },
+      "CRUD.BLL/1.0.0": {
+        "dependencies": {
+          "CRUD.BLL.Abstraction": "1.0.0",
+          "CRUD.Repository.Abstraction": "1.0.0"
+        },
+        "runtime": {
+          "CRUD.BLL.dll": {}
+        }
+      },
       "CRUD.BLL.Abstraction/1.0.0": {
         "dependencies": {
           "Models": "1.0.0"
         },
         "runtime": {
           "CRUD.BLL.Abstraction.dll": {}
+        }
+      },
+      "CRUD.Configuration/1.0.0": {
+        "dependencies": {
+          "CRUD.BLL": "1.0.0",
+          "CRUD.BLL.Abstraction": "1.0.0",
+          "CRUD.Repository": "1.0.0",
+          "Database": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "CRUD.Configuration.dll": {}
+        }
+      },
+      "CRUD.Repository/1.0.0": {
+        "dependencies": {
+          "CRUD.Repository.Abstraction": "1.0.0",
+          "Database": "1.0.0"
+        },
+        "runtime": {
+          "CRUD.Repository.dll": {}
+        }
+      },
+      "CRUD.Repository.Abstraction/1.0.0": {
+        "dependencies": {
+          "Models": "1.0.0"
+        },
+        "runtime": {
+          "CRUD.Repository.Abstraction.dll": {}
         }
       },
       "Database/1.0.0": {
@@ -842,7 +881,27 @@
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
+    "CRUD.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "CRUD.BLL.Abstraction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CRUD.Configuration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CRUD.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CRUD.Repository.Abstraction/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

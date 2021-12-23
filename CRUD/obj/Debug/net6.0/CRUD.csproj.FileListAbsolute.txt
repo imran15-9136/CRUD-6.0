@@ -64,3 +64,11 @@ D:\Project\6.0\CRUD\CRUD\bin\Debug\net6.0\Humanizer.dll
 D:\Project\6.0\CRUD\CRUD\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\Project\6.0\CRUD\CRUD\bin\Debug\net6.0\CRUD.BLL.Abstraction.dll
 D:\Project\6.0\CRUD\CRUD\bin\Debug\net6.0\CRUD.BLL.Abstraction.pdb
+D:\Project\6.0\CRUD\CRUD\bin\Debug\net6.0\CRUD.BLL.dll
+D:\Project\6.0\CRUD\CRUD\bin\Debug\net6.0\CRUD.Configuration.dll
+D:\Project\6.0\CRUD\CRUD\bin\Debug\net6.0\CRUD.Repository.Abstraction.dll
+D:\Project\6.0\CRUD\CRUD\bin\Debug\net6.0\CRUD.Repository.dll
+D:\Project\6.0\CRUD\CRUD\bin\Debug\net6.0\CRUD.Configuration.pdb
+D:\Project\6.0\CRUD\CRUD\bin\Debug\net6.0\CRUD.BLL.pdb
+D:\Project\6.0\CRUD\CRUD\bin\Debug\net6.0\CRUD.Repository.pdb
+D:\Project\6.0\CRUD\CRUD\bin\Debug\net6.0\CRUD.Repository.Abstraction.pdb

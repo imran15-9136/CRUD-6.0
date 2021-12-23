@@ -17,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CRUD.BLL.Abstraction\CRUD.BLL.Abstraction.csproj" />
     <ProjectReference Include="..\Database\Database.csproj" />
+	  <ProjectReference Include="..\CRUD.Configuration\CRUD.Configuration.csproj" />
   </ItemGroup>
 
 </Project>
