@@ -27,5 +27,17 @@ namespace CRUD.Controllers
             }
             return BadRequest();
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetCategoryAsync()
+        {
+            var data = await _categoryManager.GetAllAsync();
+            if (data!= null)
+            {
+                return Ok(data);
+            }
+            return NotFound();
+
+        }
     }
 }
