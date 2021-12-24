@@ -58,7 +58,7 @@ namespace CRUD.Controllers
             var data = await _categoryManager.GetByIdAsync(id);
             if (data!=null)
             {
-                var value = _mapper.Map<ItemCategory>(category);
+                var value = _mapper.Map(category, data);
                 var result = await _categoryManager.UpdateAsync(value);
                 if (result.Succeeded)
                 {
