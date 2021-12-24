@@ -4,6 +4,7 @@ using CRUD.Repository.Abstraction.Category;
 using CRUD.Repository.Category;
 using Database.Database;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -15,10 +16,10 @@ namespace CRUD.Configuration.Services
 {
     public static class ServiceConfiguration
     {
-        public static void Configuration(IServiceCollection services)
+        public static void Configuration(IServiceCollection services, IConfiguration configuration)
         {
-            //    Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
-            //Services.Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
+                configuration.GetConnectionString("DefaultConnection")));
 
             services.AddTransient<ICategoryManager, CategoryManager>();
             services.AddTransient<ICategoryRepository, CategoryRepository>();

@@ -146,3 +146,5 @@ D:\C#\CRUD-6.0\CRUD\obj\Debug\net6.0\CRUD.dll
 D:\C#\CRUD-6.0\CRUD\obj\Debug\net6.0\ref\CRUD.dll
 D:\C#\CRUD-6.0\CRUD\obj\Debug\net6.0\CRUD.pdb
 D:\C#\CRUD-6.0\CRUD\obj\Debug\net6.0\CRUD.genruntimeconfig.cache
+D:\C#\CRUD-6.0\CRUD\bin\Debug\net6.0\AutoMapper.dll
+D:\C#\CRUD-6.0\CRUD\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

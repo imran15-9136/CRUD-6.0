@@ -1,4 +1,4 @@
-using Database.Database;
+﻿using Database.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System.Configuration;
@@ -12,10 +12,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
-    builder.Configuration.GetConnectionString("DefaultConnection")));
+//builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
+//    builder.Configuration.GetConnectionString("DefaultConnection")));
 
-CRUD.Configuration.Services.ServiceConfiguration.Configuration(builder.Services);
+CRUD.Configuration.Mapping.ConfigureAutoMapper.Configure(builder.Services);
+CRUD.Configuration.Services.ServiceConfiguration.Configuration(builder.Services, builder.Configuration);
 
 var app = builder.Build();
 

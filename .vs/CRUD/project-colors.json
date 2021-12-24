@@ -40,7 +40,12 @@
       "ProjectGuid": "180aca4f-a4f4-47e2-8e62-b536b165cc02",
       "DisplayName": "CRUD.BLL",
       "ColorIndex": 6
+    },
+    "e14f327f-d40f-488d-90a6-4677d556b67e": {
+      "ProjectGuid": "e14f327f-d40f-488d-90a6-4677d556b67e",
+      "DisplayName": "CRUD.Configuration",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 8
 }

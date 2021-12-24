@@ -1,7 +1,9 @@
-﻿using CRUD.BLL.Abstraction.Category;
+﻿using AutoMapper;
+using CRUD.BLL.Abstraction.Category;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Models.Entity;
+using Models.Request;
 
 namespace CRUD.Controllers
 {
@@ -10,9 +12,11 @@ namespace CRUD.Controllers
     public class CategoryController : ControllerBase
     {
         private readonly ICategoryManager _categoryManager;
-        public CategoryController(ICategoryManager categoryManager)
+        private readonly IMapper _mapper;
+        public CategoryController(ICategoryManager categoryManager, IMapper mapper)
         {
             _categoryManager = categoryManager;
+            _mapper = mapper;
         }
         [HttpPost]
         public async Task<IActionResult> AddCategoryAsync([FromBody] ItemCategory category)
@@ -41,12 +45,13 @@ namespace CRUD.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateAsync(int id, [FromBody] ItemCategory category)
+        public async Task<IActionResult> UpdateAsync(int id, [FromBody] ItemCategoryCreateDto category)
         {
             var data = await _categoryManager.GetByIdAsync(id);
             if (data!=null)
             {
-                var result = await _categoryManager.UpdateAsync(category);
+                var value = _mapper.Map<ItemCategory>(category);
+                var result = await _categoryManager.UpdateAsync(value);
                 if (result.Succeeded)
                 {
                     return Ok(result);
@@ -59,7 +64,7 @@ namespace CRUD.Controllers
         [HttpDelete]
         public async Task<IActionResult> RemoveAsync(int id)
         {
-            if (id!=null)
+            if (id > 0)
             {
                 var result = await _categoryManager.RemoveAsync(id);
                 if (result.Succeeded)

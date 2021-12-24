@@ -8,7 +8,6 @@ namespace Models.Request
 {
     public class ItemCategoryCreateDto
     {
-        public int Id { get; set; }
         public string? Name { get; set; }
     }
 }
