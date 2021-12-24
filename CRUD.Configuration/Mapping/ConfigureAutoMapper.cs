@@ -7,6 +7,7 @@ using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 using Models.Entity;
 using Models.Request;
+using Models.Responses;
 
 namespace CRUD.Configuration.Mapping
 {
@@ -20,6 +21,8 @@ namespace CRUD.Configuration.Mapping
         public ConfigureAutoMapper()
         {
             CreateMap<ItemCategoryCreateDto, ItemCategory>();
+            CreateMap<ItemCategory, ItemCategoryReturnDto>();
+            CreateMap<ItemCategoryReturnDto, ItemCategory>();
         }
     }
 }

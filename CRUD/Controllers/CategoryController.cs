@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Models.Entity;
 using Models.Request;
+using Models.Responses;
 
 namespace CRUD.Controllers
 {
@@ -35,13 +36,20 @@ namespace CRUD.Controllers
         [HttpGet]
         public async Task<IActionResult> GetCategoryAsync()
         {
-            var data = await _categoryManager.GetAllAsync();
-            if (data!= null)
+            try
             {
-                return Ok(data);
+                var data = await _categoryManager.GetAllAsync();
+                if (data != null)
+                {
+                    var category = _mapper.Map<ICollection<ItemCategoryReturnDto>>(data);
+                    return Ok(category);
+                }
+                return NotFound();
             }
-            return NotFound();
-
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         [HttpPut("{id}")]
