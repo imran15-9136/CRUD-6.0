@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Models.Request
+namespace Models.Responses
 {
-    public class ItemCategoryCreateDto
+    public class ItemCategoryReturnDto
     {
+        public int Id { get; set; }
         public string? Name { get; set; }
     }
 }
