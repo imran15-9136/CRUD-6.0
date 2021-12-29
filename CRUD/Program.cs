@@ -8,6 +8,16 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+
+builder.Services.AddCors(option =>
+{
+    option.AddPolicy("EnableCORWS", builders =>
+    {
+        builders.AllowAnyOrigin();
+        builders.AllowAnyMethod();
+        builders.AllowAnyMethod();
+    });
+});
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -20,6 +30,7 @@ CRUD.Configuration.Services.ServiceConfiguration.Configuration(builder.Services,
 
 var app = builder.Build();
 
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -28,6 +39,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("EnableCORWS");
 
 app.UseAuthorization();
 
