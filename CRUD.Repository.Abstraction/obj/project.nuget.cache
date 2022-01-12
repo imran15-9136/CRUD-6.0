@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5UmBPlGNnk+q1mkEu3pMcRMfwnZwtF/ai3WSJrVhq8Pvu/n4xOHrH7wbxhA52nRn3gxoNFJn/Ks70miu6MLBcA==",
+  "dgSpecHash": "kaTN8L+Idiqi1FTbzIo7Aa1DoDOWOhvl66yg6E7Y+GkLSDZJi8xxta2DTpwL8TacNd+G6HyTtBLZxsn9dqdxGQ==",
   "success": true,
   "projectFilePath": "D:\\Project\\6.0\\CRUD\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.13\\microsoft.aspnetcore.http.features.5.0.13.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "d34Nq0j5XCYPYJKvW/QnZXxJIh5drzEC1awaMMnydSK5htaxibSOwK6QA3QrRbhWjLJsNXl9+OU78IdDbdTjiw==",
+  "dgSpecHash": "qaf0qjxPWNgB7A5fLbj7cWCs1pu60IIv5RqeCemfE+HlusaG/cqh2leshjjxzKzR+ZnhSPz+Wld9NF1tCNaNdA==",
   "success": true,
   "projectFilePath": "D:\\Project\\6.0\\CRUD\\CRUD.BLL\\CRUD.BLL.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.13\\microsoft.aspnetcore.http.features.5.0.13.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

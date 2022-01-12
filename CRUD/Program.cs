@@ -11,7 +11,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddCors(option =>
 {
-    option.AddPolicy("EnableCORWS", builders =>
+    option.AddPolicy("EnableCORS", builders =>
     {
         builders.AllowAnyOrigin();
         builders.AllowAnyMethod();
@@ -40,7 +40,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseCors("EnableCORWS");
+app.UseCors("EnableCORS");
 
 app.UseAuthorization();
 
