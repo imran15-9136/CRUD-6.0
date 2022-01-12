@@ -23,6 +23,8 @@ namespace CRUD.Configuration.Mapping
             CreateMap<ItemCategoryCreateDto, ItemCategory>();
             CreateMap<ItemCategory, ItemCategoryReturnDto>();
             CreateMap<ItemCategoryReturnDto, ItemCategory>();
+
+            CreateMap<ItemCreateDto, Item>();
         }
     }
 }

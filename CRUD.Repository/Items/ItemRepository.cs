@@ -1,6 +1,7 @@
 ﻿using CRUD.Repository.Abstraction.Items;
 using CRUD.Repository.Base;
 using Database.Database;
+using Microsoft.EntityFrameworkCore;
 using Models.Entity;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,11 @@ namespace CRUD.Repository.Items
         public ItemRepository(ApplicationDbContext dbcontext):base(dbcontext)
         {
             _dbcontext = dbcontext;
+        }
+
+        public async override Task<Item> GetById(int id)
+        {
+            return await _dbcontext.Items.FromSqlRaw<Item>("SP_ItemGetById {0}", id).FirstOrDefaultAsync();
         }
     }
 }

@@ -25,7 +25,6 @@ namespace CRUD.Controllers
         {
             if (ModelState.IsValid)
             {
-                
                 var value = _mapper.Map<Item>(model);
                 var data = await _itemManager.AddAsync(value);
                 if (data.Succeeded)
@@ -34,6 +33,24 @@ namespace CRUD.Controllers
                 }
             }
             return BadRequest();
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetById(int id)
+        {
+            if (id>0)
+            {
+                var data = _itemManager.GetByIdAsync(id);
+                if (data != null)
+                {
+                    return Ok(data);
+                }
+                else
+                {
+                    return NotFound();
+                }
+            }
+            return BadRequest(string.Empty);
         }
     }
 }
