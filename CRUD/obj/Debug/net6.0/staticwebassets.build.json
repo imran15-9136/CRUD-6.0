@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "1/ObjBFR8Iyrv4nTv7J3vvKTob4ldqNC8E/aiSezJHs=",
+  "Hash": "xilK/q09ds2lqATZO0KU9KXTHG2IV7mF125+ByGqYYM=",
   "Source": "CRUD",
   "BasePath": "_content/CRUD",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CRUD\\wwwroot",
+      "Source": "CRUD",
+      "ContentRoot": "D:\\C#\\CRUD-6.0\\CRUD\\wwwroot\\",
+      "BasePath": "_content/CRUD",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }
