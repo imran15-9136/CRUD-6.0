@@ -21,7 +21,7 @@ namespace CRUD.Repository.Items
 
         public async override Task<Item> GetById(int id)
         {
-            return await _dbcontext.Items.FromSqlRaw<Item>("SP_ItemGetById {0}", id).FirstOrDefaultAsync();
+            return await _dbcontext.Items.FromSqlRaw<Item>("SP_GetItemById {0}", id).FirstOrDefaultAsync();
         }
     }
 }
