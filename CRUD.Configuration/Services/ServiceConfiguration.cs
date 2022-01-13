@@ -1,7 +1,11 @@
 ﻿using CRUD.BLL.Abstraction.Category;
+using CRUD.BLL.Abstraction.Items;
 using CRUD.BLL.Category;
+using CRUD.BLL.Items;
 using CRUD.Repository.Abstraction.Category;
+using CRUD.Repository.Abstraction.Items;
 using CRUD.Repository.Category;
+using CRUD.Repository.Items;
 using Database.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -23,6 +27,9 @@ namespace CRUD.Configuration.Services
 
             services.AddTransient<ICategoryManager, CategoryManager>();
             services.AddTransient<ICategoryRepository, CategoryRepository>();
+
+            services.AddTransient<IItemManager, ItemManager>();
+            services.AddTransient<IItemRepository, ItemRepository>();
         }
     }
 }
