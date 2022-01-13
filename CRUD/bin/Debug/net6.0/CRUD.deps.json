@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "CRUD/1.0.0": {
         "dependencies": {
+          "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "CRUD.BLL.Abstraction": "1.0.0",
           "CRUD.Configuration": "1.0.0",

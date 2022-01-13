@@ -15,7 +15,7 @@ namespace CRUD.Controllers
         private readonly IItemManager _itemManager;
         private readonly IMapper _mapper;
         private readonly IWebHostEnvironment _hostEnvironment;
-        private const string? ItemPath = @"Items";
+        private const string ItemPath = @"Items";
 
         public ItemController(IItemManager itemManager, IMapper mapper, IWebHostEnvironment hostEnvironment)
         {
