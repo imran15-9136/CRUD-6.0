@@ -12,6 +12,7 @@ namespace Models.Entity
         public string? Name { get; set; }
         public double Price { get; set; }
         public double Vat { get; set; }
+        public string? ImagePath { get; set; }
         public ItemCategory? Category { get; set; }
         public int ItemCategoryId { get; set; }
         public DateTime? Created { get; set; }

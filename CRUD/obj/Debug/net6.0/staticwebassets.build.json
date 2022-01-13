@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "1/ObjBFR8Iyrv4nTv7J3vvKTob4ldqNC8E/aiSezJHs=",
+  "Hash": "ApoMTGQqFRKbH3y6Hw9nldEyqiwHnqPkm1et/leMOgY=",
   "Source": "CRUD",
   "BasePath": "_content/CRUD",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "CRUD\\wwwroot",
+      "Source": "CRUD",
+      "ContentRoot": "D:\\C#\\CRUD-6.0\\CRUD\\wwwroot\\",
+      "BasePath": "_content/CRUD",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\C#\\CRUD-6.0\\CRUD\\wwwroot\\Items\\44009b2c-defb-42ad-84de-080459d7f2e7_scanner_20171220_090015.jpg",
+      "SourceId": "CRUD",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\CRUD-6.0\\CRUD\\wwwroot\\",
+      "BasePath": "_content/CRUD",
+      "RelativePath": "Items/44009b2c-defb-42ad-84de-080459d7f2e7_scanner_20171220_090015.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Items\\44009b2c-defb-42ad-84de-080459d7f2e7_scanner_20171220_090015.jpg"
+    }
+  ]
 }

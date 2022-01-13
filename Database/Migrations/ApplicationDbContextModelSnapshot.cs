@@ -33,6 +33,9 @@ namespace Database.Migrations
                     b.Property<DateTime?>("Created")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("ImagePath")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("ItemCategoryId")
                         .HasColumnType("int");
 

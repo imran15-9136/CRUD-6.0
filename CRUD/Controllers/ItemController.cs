@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using CRUD.BLL.Abstraction.Items;
+using CRUD.Configuration.Library;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Models.Entity;
@@ -13,20 +14,29 @@ namespace CRUD.Controllers
     {
         private readonly IItemManager _itemManager;
         private readonly IMapper _mapper;
+        private readonly IWebHostEnvironment _hostEnvironment;
+        private const string? ItemPath = @"Items";
 
-        public ItemController(IItemManager itemManager, IMapper mapper)
+        public ItemController(IItemManager itemManager, IMapper mapper, IWebHostEnvironment hostEnvironment)
         {
             _itemManager = itemManager;
             _mapper = mapper;
+            _hostEnvironment = hostEnvironment;
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddCategoryAsync([FromBody] Item model)
+        public async Task<IActionResult> AddCategoryAsync([FromForm] ItemCreateDto model)
         {
             if (ModelState.IsValid)
             {
-                //var value = _mapper.Map<Item>(model);
-                var data = await _itemManager.AddAsync(model);
+                if (model.Image != null)
+                {
+                    string imagePath = Path.Combine(_hostEnvironment.WebRootPath, ItemPath);
+                    model.ImagePath = await ImageProcess.ProcessUploadImages(model.Image, imagePath);
+                }
+                var value = _mapper.Map<Item>(model);
+                var data = await _itemManager.AddAsync(value);
+
                 if (data.Succeeded)
                 {
                     return Ok(data);
