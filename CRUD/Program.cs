@@ -22,9 +22,6 @@ builder.Services.AddCors(option =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
-//    builder.Configuration.GetConnectionString("DefaultConnection")));
-
 CRUD.Configuration.Mapping.ConfigureAutoMapper.Configure(builder.Services);
 CRUD.Configuration.Services.ServiceConfiguration.Configuration(builder.Services, builder.Configuration);
 
