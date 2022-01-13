@@ -21,12 +21,12 @@ namespace CRUD.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddCategoryAsync([FromBody] ItemCreateDto model)
+        public async Task<IActionResult> AddCategoryAsync([FromBody] Item model)
         {
             if (ModelState.IsValid)
             {
-                var value = _mapper.Map<Item>(model);
-                var data = await _itemManager.AddAsync(value);
+                //var value = _mapper.Map<Item>(model);
+                var data = await _itemManager.AddAsync(model);
                 if (data.Succeeded)
                 {
                     return Ok(data);
@@ -40,7 +40,7 @@ namespace CRUD.Controllers
         {
             if (id>0)
             {
-                var data = _itemManager.GetByIdAsync(id);
+                var data = await _itemManager.GetByIdAsync(id);
                 if (data != null)
                 {
                     return Ok(data);
