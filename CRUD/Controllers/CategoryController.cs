@@ -56,7 +56,7 @@ namespace CRUD.Controllers
         public async Task<IActionResult> UpdateAsync(int id, [FromBody] ItemCategoryCreateDto category)
         {
             var data = await _categoryManager.GetByIdAsync(id);
-            if (data!=null)
+            if (data != null)
             {
                 var value = _mapper.Map(category, data);
                 var result = await _categoryManager.UpdateAsync(value);
@@ -69,7 +69,7 @@ namespace CRUD.Controllers
             return NotFound();
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> RemoveAsync(int id)
         {
             if (id > 0)
