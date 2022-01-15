@@ -13,9 +13,13 @@
   </ItemGroup>
 
   <ItemGroup>
+
     <ProjectReference Include="..\CRUD.BLL.Abstraction\CRUD.BLL.Abstraction.csproj" />
+    <ProjectReference Include="..\CRUD.BLL\BLL.csproj" />
     <ProjectReference Include="..\CRUD.BLL\CRUD.BLL.csproj" />
+    <ProjectReference Include="..\CRUD.Repository.Abstraction\CRUD.Repository.Abstraction.csproj" />
     <ProjectReference Include="..\CRUD.Repository\CRUD.Repository.csproj" />
+
     <ProjectReference Include="..\Database\Database.csproj" />
   </ItemGroup>
 

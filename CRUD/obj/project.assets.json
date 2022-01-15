@@ -894,6 +894,8 @@
           "CRUD.BLL": "1.0.0",
           "CRUD.BLL.Abstraction": "1.0.0",
           "CRUD.Repository": "1.0.0",
+          "CRUD.Repository.Abstraction": "1.0.0",
+          "D:\\C#\\CRUD-6.0\\CRUD.BLL\\BLL.csproj": "1.0.0",
           "Database": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
@@ -2673,5 +2675,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\C#\\CRUD-6.0\\CRUD.BLL\\BLL.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\C#\\CRUD-6.0\\CRUD.BLL\\BLL.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
