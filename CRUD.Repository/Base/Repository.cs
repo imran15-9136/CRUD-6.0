@@ -41,6 +41,11 @@ namespace CRUD.Repository.Base
             return await _db.Set<T>().ToListAsync();
         }
 
+        public async virtual Task<List<T>> GetListAllAsync()
+        {
+            return await _db.Set<T>().ToListAsync();
+        }
+
         public async virtual Task<T> GetFirstorDefault(Expression<Func<T, bool>> predicate)
         {
             return await _db.Set<T>().FirstOrDefaultAsync(predicate);
