@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "pQA7E8ebBxTxA1MCi+Z4TRtEVFd16c4AYD0uza3K4gflirEsq7i0ftcfpfjfa8KV890ounjCHDK00js8N4QGpg==",
-  "success": false,
+  "dgSpecHash": "eHj4FdYGUC5tXY6WKQOL4+ml0C/MAGtx6Ouu+4tkioOQsAyLkAJormrse8pUKVTbWUtUQpQxYd5sQLN7RTmhaw==",
+  "success": true,
   "projectFilePath": "D:\\C#\\CRUD-6.0\\CRUD\\CRUD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Imran\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
@@ -66,15 +66,5 @@
     "C:\\Users\\Imran\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
     "C:\\Users\\Imran\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\C#\\CRUD-6.0\\CRUD.BLL\\BLL.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\C#\\CRUD-6.0\\CRUD.BLL\\BLL.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

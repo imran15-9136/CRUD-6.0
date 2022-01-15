@@ -23,7 +23,9 @@ namespace CRUD.Repository.Items
             _dbcontext = dbcontext;
         }
 
+
         //public async override Task<List<Item>> GetItemsAsync()
+
         //{
         //    List<Item> items = new List<Item>();
         //    using (SqlConnection con = new SqlConnection(connectinString))
