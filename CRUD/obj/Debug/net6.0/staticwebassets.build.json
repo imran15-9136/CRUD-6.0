@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ApoMTGQqFRKbH3y6Hw9nldEyqiwHnqPkm1et/leMOgY=",
+  "Hash": "5ZuHCB4pphGY7TJ9t8OrLCQT+Y3DPqSqC/XqgikWQt0=",
   "Source": "CRUD",
   "BasePath": "_content/CRUD",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\C#\\CRUD-6.0\\CRUD\\wwwroot\\Items\\1557fada-ba6d-4b72-9d0a-a05545c605ec_DSC_0849.JPG",
+      "SourceId": "CRUD",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\CRUD-6.0\\CRUD\\wwwroot\\",
+      "BasePath": "_content/CRUD",
+      "RelativePath": "Items/1557fada-ba6d-4b72-9d0a-a05545c605ec_DSC_0849.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Items\\1557fada-ba6d-4b72-9d0a-a05545c605ec_DSC_0849.JPG"
+    },
     {
       "Identity": "D:\\C#\\CRUD-6.0\\CRUD\\wwwroot\\Items\\44009b2c-defb-42ad-84de-080459d7f2e7_scanner_20171220_090015.jpg",
       "SourceId": "CRUD",
