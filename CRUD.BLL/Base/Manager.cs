@@ -79,5 +79,10 @@ namespace CRUD.BLL.Base
         {
             throw new NotImplementedException();
         }
+
+        public List<T> GetAll()
+        {
+            return _repository.GetAll();
+        }
     }
 }

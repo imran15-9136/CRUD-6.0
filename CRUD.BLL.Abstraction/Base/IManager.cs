@@ -13,6 +13,7 @@ namespace CRUD.BLL.Abstraction.Base
         Task<Result> UpdateAsync(T entity);
         Task<Result> RemoveAsync(int id);
         Task<ICollection<T>> GetAllAsync();
+        List<T> GetAll();
         Task<ICollection<T>> GetAllAsyncPaginated(int pageIndex, int pageSize, string key, string searchString);
         Task<T> GetByIdAsync(int id);
         Task<T> GetFirstorDefault(int id);

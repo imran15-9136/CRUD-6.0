@@ -13,6 +13,7 @@ namespace CRUD.Repository.Abstraction.Base
         Task<bool> UpdateAsync(T entity);
         Task<bool> RemoveAsync(T entity);
         Task<ICollection<T>> GetAllAsync();
+        List<T> GetAll();
         Task<T> GetFirstorDefault(Expression<Func<T, bool>> predicate);
         Task<T> GetById(int id);
         IQueryable<T> Get(Expression<Func<T, bool>> predicate);

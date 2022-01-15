@@ -45,11 +45,22 @@ namespace CRUD.Controllers
             return BadRequest();
         }
 
+        //[HttpGet]
+        //public async Task<IActionResult> GetAllAsync()
+        //{
+        //    var data = await _itemManager.GetAllAsync();
+        //    if (data!=null)
+        //    {
+        //        return Ok(data);
+        //    }
+        //    return NotFound();
+        //}
+
         [HttpGet]
-        public async Task<IActionResult> GetAllAsync()
+        public IActionResult GetAll()
         {
-            var data = await _itemManager.GetAllAsync();
-            if (data!=null)
+            var data = _itemManager.GetAll();
+            if (data != null)
             {
                 return Ok(data);
             }
