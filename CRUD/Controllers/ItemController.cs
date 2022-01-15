@@ -46,7 +46,18 @@ namespace CRUD.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetById(int id)
+        public async Task<IActionResult> GetAllAsync()
+        {
+            var data = await _itemManager.GetAllAsync();
+            if (data!=null)
+            {
+                return Ok(data);
+            }
+            return NotFound();
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetByIdAsync(int id)
         {
             if (id>0)
             {
@@ -61,6 +72,39 @@ namespace CRUD.Controllers
                 }
             }
             return BadRequest(string.Empty);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateAsync(int id, [FromForm] ItemCreateDto model)
+        {
+            var item = await _itemManager.GetByIdAsync(id);
+            if (item!=null)
+            {
+                if (ModelState.IsValid)
+                {
+                    if (model.Image != null)
+                    {
+                        if (item.ImagePath != null)
+                        {
+                            string previousImage = Path.Combine(_hostEnvironment.WebRootPath, ItemPath, item.ImagePath);
+                            ImageProcess.ProcessDeleteImages(previousImage);
+                        }
+                        string imagePath = Path.Combine(_hostEnvironment.WebRootPath, ItemPath);
+                        model.ImagePath = await ImageProcess.ProcessUploadImages(model.Image, imagePath);
+
+                        var data = _mapper.Map(model, item);
+                        var result = await _itemManager.UpdateAsync(data);
+
+                        if(result.Succeeded)
+                        {
+                            return Ok(result);
+                        }
+                        return BadRequest();
+                    }
+                }
+            }
+            return NotFound();
+            
         }
     }
 }

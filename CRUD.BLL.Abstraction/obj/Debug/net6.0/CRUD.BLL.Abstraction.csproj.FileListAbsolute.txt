@@ -26,4 +26,4 @@ D:\C#\CRUD-6.0\CRUD.BLL.Abstraction\obj\Debug\net6.0\CRUD.BLL.Abstraction.csproj
 D:\C#\CRUD-6.0\CRUD.BLL.Abstraction\obj\Debug\net6.0\CRUD.BLL.Abstraction.dll
 D:\C#\CRUD-6.0\CRUD.BLL.Abstraction\obj\Debug\net6.0\ref\CRUD.BLL.Abstraction.dll
 D:\C#\CRUD-6.0\CRUD.BLL.Abstraction\obj\Debug\net6.0\CRUD.BLL.Abstraction.pdb
-D:\Project\6.0\CRUD\CRUD.BLL.Abstraction\obj\Debug\net6.0\CRUD.BLL.Abstraction.csproj.AssemblyReference.cache
+D:\C#\CRUD-6.0\CRUD.BLL.Abstraction\obj\Debug\net6.0\CRUD.BLL.Abstraction.csproj.AssemblyReference.cache

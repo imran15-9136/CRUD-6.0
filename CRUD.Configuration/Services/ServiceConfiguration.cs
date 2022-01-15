@@ -25,11 +25,14 @@ namespace CRUD.Configuration.Services
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
                 configuration.GetConnectionString("DefaultConnection")));
 
+            
+
             services.AddTransient<ICategoryManager, CategoryManager>();
             services.AddTransient<ICategoryRepository, CategoryRepository>();
 
             services.AddTransient<IItemManager, ItemManager>();
             services.AddTransient<IItemRepository, ItemRepository>();
+
         }
     }
 }
