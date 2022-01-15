@@ -18,7 +18,10 @@
 dir_to_ignore/wwwroot*
 dir_to_ignore/bin*
 folder_to_ignore/CRUD.Repository/bin*
-*.[dll]
+*.dll
+*/bin/*
+*/obj/*
+obj/*
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
