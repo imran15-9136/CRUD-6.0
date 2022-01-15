@@ -22,6 +22,7 @@ folder_to_ignore/CRUD.Repository/bin*
 */bin/*
 */obj/*
 obj/*
+.vs/CRUD/v17/.suo
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
