@@ -20,10 +20,9 @@ namespace CRUD.Configuration.Services
 {
     public static class ServiceConfiguration
     {
-        public static void Configuration(IServiceCollection services, IConfiguration configuration)
+        public static void Configuration(IServiceCollection services, IConfiguration configuration, string connection)
         {
-            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
-                configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connection));
 
             
 
