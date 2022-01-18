@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace CRUD.Report {
+namespace CRUD.Report.DBSet {
     
     
     /// <summary>
@@ -4254,7 +4254,7 @@ namespace CRUD.Report {
         }
     }
 }
-namespace CRUD.Report.CRUDDataSetTableAdapters {
+namespace CRUD.Report.DBSet.CRUDDataSetTableAdapters {
     
     
     /// <summary>
