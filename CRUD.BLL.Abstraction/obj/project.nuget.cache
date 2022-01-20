@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RTkQIWb51zuDfHpjdHfhYXFgTNaC9rxpkfh2rt94tbiMaIdu6gr1+UWarnoBEAxVUuqJ05+EKi8iJ38h6eXhag==",
+  "dgSpecHash": "UAhE6w3r+86AddsXWUQS7QJFYWWyOrrVbXfYIqSM78hUEJZfq1u6B+szMnNGfu1YAgwc68SJAyy8fLmuyF2Bjg==",
   "success": true,
-  "projectFilePath": "D:\\Project\\6.0\\CRUD\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj",
+  "projectFilePath": "D:\\C#\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.13\\microsoft.aspnetcore.http.features.5.0.13.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+    "C:\\Users\\Imran\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.13\\microsoft.aspnetcore.http.features.5.0.13.nupkg.sha512",
+    "C:\\Users\\Imran\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Imran\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }
