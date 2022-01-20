@@ -34,6 +34,16 @@ namespace CRUD.BLL.Base
             return Result.Failure(new[] { "Unable to save data!" });
         }
 
+        public virtual Result Add(T entity)
+        {
+            bool isAdded = _repository.Add(entity);
+            if (isAdded)
+            {
+                return Result.Success();
+            }
+            return Result.Failure(new[] { "Unable to save data!" });
+        }
+
         public virtual async Task<Result> UpdateAsync(T entity)
         {
             bool isUpdate = await _repository.UpdateAsync(entity);

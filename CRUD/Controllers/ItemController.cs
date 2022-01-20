@@ -25,7 +25,7 @@ namespace CRUD.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddCategoryAsync([FromForm] ItemCreateDto model)
+        public async Task<IActionResult> AddItemAsync([FromForm] ItemCreateDto model)
         {
             if (ModelState.IsValid)
             {
@@ -36,6 +36,27 @@ namespace CRUD.Controllers
                 }
                 var value = _mapper.Map<Item>(model);
                 var data = await _itemManager.AddAsync(value);
+
+                if (data.Succeeded)
+                {
+                    return Ok(data);
+                }
+            }
+            return BadRequest();
+        }
+
+        [HttpPost("AddItems")]
+        public async Task<IActionResult> AddItem([FromForm] ItemCreateDto model)
+        {
+            if (ModelState.IsValid)
+            {
+                if (model.Image != null)
+                {
+                    string imagePath = Path.Combine(_hostEnvironment.WebRootPath, ItemPath);
+                    model.ImagePath = await ImageProcess.ProcessUploadImages(model.Image, imagePath);
+                }
+                var value = _mapper.Map<Item>(model);
+                var data = _itemManager.Add(value);
 
                 if (data.Succeeded)
                 {

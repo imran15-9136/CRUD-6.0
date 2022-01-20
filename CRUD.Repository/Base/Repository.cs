@@ -24,6 +24,12 @@ namespace CRUD.Repository.Base
             return await _db.SaveChangesAsync() > 0;
         }
 
+        public virtual bool Add(T entity)
+        {
+            _db.Add(entity);
+            return _db.SaveChanges() > 0;
+        }
+
         public async virtual Task<bool> UpdateAsync(T entity)
         {
             _db.Entry(entity).State = EntityState.Modified;

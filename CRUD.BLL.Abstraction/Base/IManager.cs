@@ -10,6 +10,7 @@ namespace CRUD.BLL.Abstraction.Base
     public interface IManager<T> : IDisposable where T : class
     {
         Task<Result> AddAsync(T entity);
+        Result Add(T entity);
         Task<Result> UpdateAsync(T entity);
         Task<Result> RemoveAsync(int id);
         Task<ICollection<T>> GetAllAsync();

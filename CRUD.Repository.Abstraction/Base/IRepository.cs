@@ -10,6 +10,7 @@ namespace CRUD.Repository.Abstraction.Base
     public interface IRepository<T> where T : class
     {
         Task<bool> AddAsync(T entity);
+        bool Add(T entity);
         Task<bool> UpdateAsync(T entity);
         Task<bool> RemoveAsync(T entity);
         Task<ICollection<T>> GetAllAsync();
