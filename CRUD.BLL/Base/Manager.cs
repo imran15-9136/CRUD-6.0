@@ -34,6 +34,16 @@ namespace CRUD.BLL.Base
             return Result.Failure(new[] { "Unable to save data!" });
         }
 
+        public virtual Result Add(T entity)
+        {
+            bool isAdded = _repository.Add(entity);
+            if (isAdded)
+            {
+                return Result.Success();
+            }
+            return Result.Failure(new[] { "Unable to save data!" });
+        }
+
         public virtual async Task<Result> UpdateAsync(T entity)
         {
             bool isUpdate = await _repository.UpdateAsync(entity);
@@ -45,13 +55,39 @@ namespace CRUD.BLL.Base
             return Result.Failure(new[] { "Unable to update data!" });
         }
 
+        public virtual Result Update(T entity)
+        {
+            bool isUpdate = _repository.Update(entity);
+
+            if (isUpdate)
+            {
+                return Result.Success();
+            }
+            return Result.Failure(new[] { "Unable to update data!" });
+        }
+
         public virtual async Task<Result> RemoveAsync(int id)
         {
-            var data = await _repository.GetById(id);
+            var data = await _repository.GetByIdAsync(id);
 
             if (data != null)
             {
                 bool isRemove = await _repository.RemoveAsync(data);
+                if (isRemove)
+                {
+                    return Result.Success();
+                }
+            }
+            return Result.Failure(new[] { "Unable to remove" });
+        }
+
+        public virtual Result Remove(int id)
+        {
+            var data = _repository.GetById(id);
+
+            if (data != null)
+            {
+                bool isRemove = _repository.Remove(data);
                 if (isRemove)
                 {
                     return Result.Success();
@@ -67,7 +103,12 @@ namespace CRUD.BLL.Base
 
         public async Task<T> GetByIdAsync(int id)
         {
-            return await _repository.GetById(id);
+            return await _repository.GetByIdAsync(id);
+        }
+
+        public T GetById(int id)
+        {
+            return _repository.GetById(id);
         }
 
         public Task<T> GetFirstorDefault(int id)

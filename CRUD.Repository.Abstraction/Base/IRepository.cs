@@ -10,12 +10,16 @@ namespace CRUD.Repository.Abstraction.Base
     public interface IRepository<T> where T : class
     {
         Task<bool> AddAsync(T entity);
+        bool Add(T entity);
         Task<bool> UpdateAsync(T entity);
+        bool Update(T entity);
         Task<bool> RemoveAsync(T entity);
+        bool Remove(T entity);
         Task<ICollection<T>> GetAllAsync();
         List<T> GetAll();
         Task<T> GetFirstorDefault(Expression<Func<T, bool>> predicate);
-        Task<T> GetById(int id);
+        Task<T> GetByIdAsync(int id);
+        T GetById(int id);
         IQueryable<T> Get(Expression<Func<T, bool>> predicate);
         bool UpdateRange(IList<T> entity);
         Task<bool> UpdateRangeAsync(IList<T> entity);

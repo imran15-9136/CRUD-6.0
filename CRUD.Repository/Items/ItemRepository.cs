@@ -42,13 +42,36 @@ namespace CRUD.Repository.Items
                     item.Price = Convert.ToInt32(rdr["Price"]);
                     item.Vat = Convert.ToInt32(rdr["Vat"]);
                     item.ItemCategoryId = Convert.ToInt32(rdr["ItemCategoryId"]);
-                    //item.Created = Convert.ToDateTime(rdr["Created"]);
+                    //item.Created = Convert.ToDateTime(rdr["Created"].ToString());
                     item.ImagePath = rdr["ImagePath"].ToString();
                     items.Add(item);
                 }
                 con.Close();
             }
             return items;
+        }
+
+        public override bool Add(Item model)
+        {
+            using (SqlConnection con = new SqlConnection(connectinString))
+            {
+                SqlCommand cmd = new SqlCommand("SP_AddItem", con);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                cmd.Parameters.AddWithValue("Id", model.Id);
+                cmd.Parameters.AddWithValue("Name", model.Name);
+                cmd.Parameters.AddWithValue("Price", model.Price);
+                cmd.Parameters.AddWithValue("Vat", model.Vat);
+                cmd.Parameters.AddWithValue("Created", model.Created);
+                cmd.Parameters.AddWithValue("ItemCategoryId", model.ItemCategoryId);
+                cmd.Parameters.AddWithValue("ImagePath", model.ImagePath);
+
+                con.Open();
+                cmd.ExecuteNonQuery();
+                con.Close();
+
+            }
+            return true;
         }
 
     }

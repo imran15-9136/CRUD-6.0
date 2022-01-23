@@ -24,16 +24,34 @@ namespace CRUD.Repository.Base
             return await _db.SaveChangesAsync() > 0;
         }
 
+        public virtual bool Add(T entity)
+        {
+            _db.Add(entity);
+            return _db.SaveChanges() > 0;
+        }
+
         public async virtual Task<bool> UpdateAsync(T entity)
         {
             _db.Entry(entity).State = EntityState.Modified;
             return await _db.SaveChangesAsync() > 0;
         }
 
+        public  virtual bool Update(T entity)
+        {
+            _db.Entry(entity).State = EntityState.Modified;
+            return _db.SaveChanges() > 0;
+        }
+
         public async virtual Task<bool> RemoveAsync(T entity)
         {
             _db.Remove(entity);
             return await _db.SaveChangesAsync() > 0;
+        }
+
+        public virtual bool Remove(T entity)
+        {
+            _db.Remove(entity);
+            return _db.SaveChanges() > 0;
         }
 
         public async virtual Task<ICollection<T>> GetAllAsync()
@@ -51,9 +69,30 @@ namespace CRUD.Repository.Base
             return await _db.Set<T>().FirstOrDefaultAsync(predicate);
         }
 
-        public async virtual Task<T> GetById(int id)
+        public async virtual Task<T> GetByIdAsync(int id)
         {
-            return await _db.Set<T>().FindAsync(id);
+            var data = await _db.Set<T>().FindAsync(id);
+            if (data!=null)
+            {
+                return data;
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        public virtual T GetById(int id)
+        {
+            var data = _db.Set<T>().Find(id);
+            if (data != null)
+            {
+                return data;
+            }
+            else
+            {
+                return null;
+            }
         }
 
         public virtual IQueryable<T> Get(Expression<Func<T, bool>> predicate)
