@@ -2,6 +2,7 @@
 using CRUD.BLL.Abstraction.Items;
 using CRUD.BLL.Category;
 using CRUD.BLL.Items;
+using CRUD.Configuration.Library;
 using CRUD.Repository.Abstraction.Category;
 using CRUD.Repository.Abstraction.Items;
 using CRUD.Repository.Category;
@@ -22,7 +23,9 @@ namespace CRUD.Configuration.Services
     {
         public static void Configuration(IServiceCollection services, IConfiguration configuration, string connection)
         {
-            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connection));
+            
+
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(EncryptProcess.DecryptString(connection)));
 
             
 
