@@ -2580,19 +2580,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Imran\\.nuget\\packages\\": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\CRUD-6.0\\CRUD\\CRUD.csproj",
+      "projectUniqueName": "E:\\CRUD-6.0\\CRUD\\CRUD.csproj",
       "projectName": "CRUD",
-      "projectPath": "D:\\C#\\CRUD-6.0\\CRUD\\CRUD.csproj",
-      "packagesPath": "C:\\Users\\Imran\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\CRUD-6.0\\CRUD\\obj\\",
+      "projectPath": "E:\\CRUD-6.0\\CRUD\\CRUD.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "E:\\CRUD-6.0\\CRUD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2606,14 +2606,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\C#\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj": {
-              "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj"
+            "E:\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj": {
+              "projectPath": "E:\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj"
             },
-            "D:\\C#\\CRUD-6.0\\CRUD.Configuration\\CRUD.Configuration.csproj": {
-              "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.Configuration\\CRUD.Configuration.csproj"
+            "E:\\CRUD-6.0\\CRUD.Configuration\\CRUD.Configuration.csproj": {
+              "projectPath": "E:\\CRUD-6.0\\CRUD.Configuration\\CRUD.Configuration.csproj"
             },
-            "D:\\C#\\CRUD-6.0\\Database\\Database.csproj": {
-              "projectPath": "D:\\C#\\CRUD-6.0\\Database\\Database.csproj"
+            "E:\\CRUD-6.0\\Database\\Database.csproj": {
+              "projectPath": "E:\\CRUD-6.0\\Database\\Database.csproj"
             }
           }
         }
@@ -2665,7 +2665,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
