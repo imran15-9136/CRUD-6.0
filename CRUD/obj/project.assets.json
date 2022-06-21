@@ -895,6 +895,7 @@
           "CRUD.BLL": "1.0.0",
           "CRUD.BLL.Abstraction": "1.0.0",
           "CRUD.Repository": "1.0.0",
+          "CRUD.Repository.Abstraction": "1.0.0",
           "Database": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
@@ -2571,6 +2572,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AutoMapper >= 10.1.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
       "CRUD.BLL.Abstraction >= 1.0.0",
       "CRUD.Configuration >= 1.0.0",
@@ -2629,6 +2631,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[10.1.1, )"
+          },
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[8.1.1, )"

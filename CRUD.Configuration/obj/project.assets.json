@@ -2064,6 +2064,7 @@
       "CRUD.BLL >= 1.0.0",
       "CRUD.BLL.Abstraction >= 1.0.0",
       "CRUD.Repository >= 1.0.0",
+      "CRUD.Repository.Abstraction >= 1.0.0",
       "Database >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0"
     ]
@@ -2101,8 +2102,16 @@
             "E:\\CRUD-6.0\\CRUD.BLL\\CRUD.BLL.csproj": {
               "projectPath": "E:\\CRUD-6.0\\CRUD.BLL\\CRUD.BLL.csproj"
             },
+<<<<<<< HEAD
             "E:\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj": {
               "projectPath": "E:\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj"
+=======
+            "D:\\C#\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj": {
+              "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj"
+            },
+            "D:\\C#\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj": {
+              "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj"
+>>>>>>> 064ea9777e71227b49898acefd09b13185e83983
             },
             "E:\\CRUD-6.0\\Database\\Database.csproj": {
               "projectPath": "E:\\CRUD-6.0\\Database\\Database.csproj"

@@ -18,15 +18,17 @@ builder.Services.AddCors(option =>
         builders.AllowAnyMethod();
     });
 });
+
+string connection = builder.Configuration.GetConnectionString("DefaultConnection");
+
+//builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connection));
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
-//    builder.Configuration.GetConnectionString("DefaultConnection")));
-
 CRUD.Configuration.Mapping.ConfigureAutoMapper.Configure(builder.Services);
-CRUD.Configuration.Services.ServiceConfiguration.Configuration(builder.Services, builder.Configuration);
+CRUD.Configuration.Services.ServiceConfiguration.Configuration(builder.Services, builder.Configuration, connection);
 
 var app = builder.Build();
 

@@ -4,6 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <LangVersion>preview</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,6 +16,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CRUD.BLL.Abstraction\CRUD.BLL.Abstraction.csproj" />
     <ProjectReference Include="..\CRUD.BLL\CRUD.BLL.csproj" />
+    <ProjectReference Include="..\CRUD.Repository.Abstraction\CRUD.Repository.Abstraction.csproj" />
     <ProjectReference Include="..\CRUD.Repository\CRUD.Repository.csproj" />
     <ProjectReference Include="..\Database\Database.csproj" />
   </ItemGroup>

@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "nJz9IZRNMeu9535GwNsS0SB/dDMoUWpgf/a17Q3HMEeYjbz5EnwyVi+58XzxCXdquxx3PcALeOVvpHG76U7GBQ==",
+=======
+  "dgSpecHash": "eHj4FdYGUC5tXY6WKQOL4+ml0C/MAGtx6Ouu+4tkioOQsAyLkAJormrse8pUKVTbWUtUQpQxYd5sQLN7RTmhaw==",
+>>>>>>> 064ea9777e71227b49898acefd09b13185e83983
   "success": true,
   "projectFilePath": "E:\\CRUD-6.0\\CRUD\\CRUD.csproj",
   "expectedPackageFiles": [

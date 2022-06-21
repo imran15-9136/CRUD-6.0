@@ -40,7 +40,17 @@
       "ProjectGuid": "3222d0b3-6d04-4428-9e49-ad5faf94998f",
       "DisplayName": "Database",
       "ColorIndex": 7
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "9b2c0554-66d4-4e74-bf3c-af91f0b415f3": {
+      "ProjectGuid": "9b2c0554-66d4-4e74-bf3c-af91f0b415f3",
+      "DisplayName": "CRUD.Report",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 9
 }

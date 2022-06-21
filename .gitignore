@@ -15,6 +15,15 @@
 *.userosscache
 *.sln.docstates
 
+dir_to_ignore/wwwroot*
+dir_to_ignore/bin*
+folder_to_ignore/CRUD.Repository/bin*
+*.dll
+*/bin/*
+*/obj/*
+obj/*
+.vs/CRUD/v17/.suo
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 

@@ -75,7 +75,7 @@ namespace Database.Migrations
                     b.Property<string>("ImagePath")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ItemCategoryId")
+                    b.Property<int?>("ItemCategoryId")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
@@ -170,9 +170,7 @@ namespace Database.Migrations
                 {
                     b.HasOne("Models.Entity.ItemCategory", "Category")
                         .WithMany()
-                        .HasForeignKey("ItemCategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ItemCategoryId");
 
                     b.Navigation("Category");
                 });

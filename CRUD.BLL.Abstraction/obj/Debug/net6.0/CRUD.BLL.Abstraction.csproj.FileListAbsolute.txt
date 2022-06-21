@@ -26,6 +26,7 @@ D:\C#\CRUD-6.0\CRUD.BLL.Abstraction\obj\Debug\net6.0\CRUD.BLL.Abstraction.csproj
 D:\C#\CRUD-6.0\CRUD.BLL.Abstraction\obj\Debug\net6.0\CRUD.BLL.Abstraction.dll
 D:\C#\CRUD-6.0\CRUD.BLL.Abstraction\obj\Debug\net6.0\ref\CRUD.BLL.Abstraction.dll
 D:\C#\CRUD-6.0\CRUD.BLL.Abstraction\obj\Debug\net6.0\CRUD.BLL.Abstraction.pdb
+<<<<<<< HEAD
 E:\CRUD-6.0\CRUD.BLL.Abstraction\bin\Debug\net6.0\CRUD.BLL.Abstraction.deps.json
 E:\CRUD-6.0\CRUD.BLL.Abstraction\bin\Debug\net6.0\CRUD.BLL.Abstraction.dll
 E:\CRUD-6.0\CRUD.BLL.Abstraction\bin\Debug\net6.0\CRUD.BLL.Abstraction.pdb
@@ -41,3 +42,6 @@ E:\CRUD-6.0\CRUD.BLL.Abstraction\obj\Debug\net6.0\CRUD.BLL.Abstraction.dll
 E:\CRUD-6.0\CRUD.BLL.Abstraction\obj\Debug\net6.0\refint\CRUD.BLL.Abstraction.dll
 E:\CRUD-6.0\CRUD.BLL.Abstraction\obj\Debug\net6.0\CRUD.BLL.Abstraction.pdb
 E:\CRUD-6.0\CRUD.BLL.Abstraction\obj\Debug\net6.0\ref\CRUD.BLL.Abstraction.dll
+=======
+D:\C#\CRUD-6.0\CRUD.BLL.Abstraction\obj\Debug\net6.0\CRUD.BLL.Abstraction.csproj.AssemblyReference.cache
+>>>>>>> 064ea9777e71227b49898acefd09b13185e83983

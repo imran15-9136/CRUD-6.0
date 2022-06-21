@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using CRUD.BLL.Abstraction.Category;
+using CRUD.Configuration.Library;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Models.Entity;
@@ -27,6 +28,8 @@ namespace CRUD.Controllers
                 var data = await _categoryManager.AddAsync(category);
                 if (data.Succeeded)
                 {
+                    var encrypt = EncryptProcess.EncryptString(category.Name);
+                    var dcrypt = EncryptProcess.DecryptString(encrypt);
                     return Ok(data);
                 }
             }
@@ -56,7 +59,7 @@ namespace CRUD.Controllers
         public async Task<IActionResult> UpdateAsync(int id, [FromBody] ItemCategoryCreateDto category)
         {
             var data = await _categoryManager.GetByIdAsync(id);
-            if (data!=null)
+            if (data != null)
             {
                 var value = _mapper.Map(category, data);
                 var result = await _categoryManager.UpdateAsync(value);
@@ -69,7 +72,7 @@ namespace CRUD.Controllers
             return NotFound();
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> RemoveAsync(int id)
         {
             if (id > 0)
