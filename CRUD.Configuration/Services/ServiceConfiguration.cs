@@ -1,10 +1,14 @@
 ﻿using CRUD.BLL.Abstraction.Category;
+using CRUD.BLL.Abstraction.Employee;
 using CRUD.BLL.Abstraction.Items;
 using CRUD.BLL.Category;
+using CRUD.BLL.Employee;
 using CRUD.BLL.Items;
 using CRUD.Repository.Abstraction.Category;
+using CRUD.Repository.Abstraction.Employee;
 using CRUD.Repository.Abstraction.Items;
 using CRUD.Repository.Category;
+using CRUD.Repository.Employee;
 using CRUD.Repository.Items;
 using Database.Database;
 using Microsoft.EntityFrameworkCore;
@@ -30,6 +34,12 @@ namespace CRUD.Configuration.Services
 
             services.AddTransient<IItemManager, ItemManager>();
             services.AddTransient<IItemRepository, ItemRepository>();
+
+            services.AddTransient<IEmployeeManager, EmployeeManager>();
+            services.AddTransient<IEmployeeRepository, EmployeeRepository>();
+
+            services.AddTransient<IEmployeeGroupManager, EmployeeGroupManager>();
+            services.AddTransient<IEmployeeGroupRepository, EmployeeGroupRepository>();
         }
     }
 }

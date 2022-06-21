@@ -20,5 +20,7 @@ namespace Database.Database
         public DbSet<Item> Items { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetails> OrderDetails { get; set; }
+        public DbSet<EmployeeGroup> EmployeeGroups { get; set; }
+        public DbSet<Employees> Employees { get; set; }
     }
 }

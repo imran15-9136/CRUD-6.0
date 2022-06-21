@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CRUD.BLL.Abstraction\CRUD.BLL.Abstraction.csproj" />
     <ProjectReference Include="..\CRUD.Repository.Abstraction\CRUD.Repository.Abstraction.csproj" />
+    <ProjectReference Include="..\CRUD.Repository\CRUD.Repository.csproj" />
   </ItemGroup>
 
 </Project>
