@@ -19,7 +19,6 @@ D:\Project\6.0\CRUD\CRUD.Repository\obj\Debug\net6.0\CRUD.Repository.csproj.Asse
 D:\Project\6.0\CRUD\CRUD.Repository\obj\Debug\net6.0\CRUD.Repository.csproj.CopyComplete
 D:\C#\CRUD-6.0\CRUD.Repository\bin\Debug\net6.0\CRUD.Repository.deps.json
 D:\C#\CRUD-6.0\CRUD.Repository\bin\Debug\net6.0\CRUD.Repository.dll
-D:\C#\CRUD-6.0\CRUD.Repository\bin\Debug\net6.0\ref\CRUD.Repository.dll
 D:\C#\CRUD-6.0\CRUD.Repository\bin\Debug\net6.0\CRUD.Repository.pdb
 D:\C#\CRUD-6.0\CRUD.Repository\bin\Debug\net6.0\CRUD.Repository.Abstraction.dll
 D:\C#\CRUD-6.0\CRUD.Repository\bin\Debug\net6.0\Database.dll
@@ -55,3 +54,4 @@ E:\CRUD-6.0\CRUD.Repository\obj\Debug\net6.0\CRUD.Repository.dll
 E:\CRUD-6.0\CRUD.Repository\obj\Debug\net6.0\refint\CRUD.Repository.dll
 E:\CRUD-6.0\CRUD.Repository\obj\Debug\net6.0\CRUD.Repository.pdb
 E:\CRUD-6.0\CRUD.Repository\obj\Debug\net6.0\ref\CRUD.Repository.dll
+D:\C#\CRUD-6.0\CRUD.Repository\obj\Debug\net6.0\refint\CRUD.Repository.dll

@@ -78,7 +78,6 @@ D:\C#\CRUD-6.0\CRUD\bin\Debug\net6.0\CRUD.exe
 D:\C#\CRUD-6.0\CRUD\bin\Debug\net6.0\CRUD.deps.json
 D:\C#\CRUD-6.0\CRUD\bin\Debug\net6.0\CRUD.runtimeconfig.json
 D:\C#\CRUD-6.0\CRUD\bin\Debug\net6.0\CRUD.dll
-D:\C#\CRUD-6.0\CRUD\bin\Debug\net6.0\ref\CRUD.dll
 D:\C#\CRUD-6.0\CRUD\bin\Debug\net6.0\CRUD.pdb
 D:\C#\CRUD-6.0\CRUD\bin\Debug\net6.0\Humanizer.dll
 D:\C#\CRUD-6.0\CRUD\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
@@ -228,3 +227,4 @@ E:\CRUD-6.0\CRUD\obj\Debug\net6.0\refint\CRUD.dll
 E:\CRUD-6.0\CRUD\obj\Debug\net6.0\CRUD.pdb
 E:\CRUD-6.0\CRUD\obj\Debug\net6.0\CRUD.genruntimeconfig.cache
 E:\CRUD-6.0\CRUD\obj\Debug\net6.0\ref\CRUD.dll
+D:\C#\CRUD-6.0\CRUD\obj\Debug\net6.0\refint\CRUD.dll

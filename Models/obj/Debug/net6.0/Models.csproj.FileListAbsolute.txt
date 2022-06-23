@@ -11,7 +11,6 @@ D:\Project\6.0\CRUD\Models\obj\Debug\net6.0\ref\Models.dll
 D:\Project\6.0\CRUD\Models\obj\Debug\net6.0\Models.pdb
 D:\C#\CRUD-6.0\Models\bin\Debug\net6.0\Models.deps.json
 D:\C#\CRUD-6.0\Models\bin\Debug\net6.0\Models.dll
-D:\C#\CRUD-6.0\Models\bin\Debug\net6.0\ref\Models.dll
 D:\C#\CRUD-6.0\Models\bin\Debug\net6.0\Models.pdb
 D:\C#\CRUD-6.0\Models\obj\Debug\net6.0\Models.GeneratedMSBuildEditorConfig.editorconfig
 D:\C#\CRUD-6.0\Models\obj\Debug\net6.0\Models.AssemblyInfoInputs.cache
@@ -33,3 +32,4 @@ E:\CRUD-6.0\Models\obj\Debug\net6.0\Models.dll
 E:\CRUD-6.0\Models\obj\Debug\net6.0\refint\Models.dll
 E:\CRUD-6.0\Models\obj\Debug\net6.0\Models.pdb
 E:\CRUD-6.0\Models\obj\Debug\net6.0\ref\Models.dll
+D:\C#\CRUD-6.0\Models\obj\Debug\net6.0\refint\Models.dll

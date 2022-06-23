@@ -18,7 +18,6 @@ D:\Project\6.0\CRUD\Database\obj\Debug\net6.0\Database.csproj.CopyComplete
 D:\C#\CRUD-6.0\Database\bin\Debug\net6.0\Database.deps.json
 D:\C#\CRUD-6.0\Database\bin\Debug\net6.0\Database.runtimeconfig.json
 D:\C#\CRUD-6.0\Database\bin\Debug\net6.0\Database.dll
-D:\C#\CRUD-6.0\Database\bin\Debug\net6.0\ref\Database.dll
 D:\C#\CRUD-6.0\Database\bin\Debug\net6.0\Database.pdb
 D:\C#\CRUD-6.0\Database\bin\Debug\net6.0\Models.dll
 D:\C#\CRUD-6.0\Database\bin\Debug\net6.0\Models.pdb
@@ -49,3 +48,4 @@ E:\CRUD-6.0\Database\obj\Debug\net6.0\refint\Database.dll
 E:\CRUD-6.0\Database\obj\Debug\net6.0\Database.pdb
 E:\CRUD-6.0\Database\obj\Debug\net6.0\Database.genruntimeconfig.cache
 E:\CRUD-6.0\Database\obj\Debug\net6.0\ref\Database.dll
+D:\C#\CRUD-6.0\Database\obj\Debug\net6.0\refint\Database.dll

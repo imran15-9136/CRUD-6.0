@@ -19,7 +19,6 @@ D:\Project\6.0\CRUD\CRUD.BLL\bin\Debug\net6.0\Models.pdb
 D:\Project\6.0\CRUD\CRUD.BLL\obj\Debug\net6.0\CRUD.BLL.csproj.CopyComplete
 D:\C#\CRUD-6.0\CRUD.BLL\bin\Debug\net6.0\CRUD.BLL.deps.json
 D:\C#\CRUD-6.0\CRUD.BLL\bin\Debug\net6.0\CRUD.BLL.dll
-D:\C#\CRUD-6.0\CRUD.BLL\bin\Debug\net6.0\ref\CRUD.BLL.dll
 D:\C#\CRUD-6.0\CRUD.BLL\bin\Debug\net6.0\CRUD.BLL.pdb
 D:\C#\CRUD-6.0\CRUD.BLL\bin\Debug\net6.0\CRUD.BLL.Abstraction.dll
 D:\C#\CRUD-6.0\CRUD.BLL\bin\Debug\net6.0\CRUD.Repository.Abstraction.dll
@@ -59,3 +58,8 @@ E:\CRUD-6.0\CRUD.BLL\bin\Debug\net6.0\CRUD.Repository.dll
 E:\CRUD-6.0\CRUD.BLL\bin\Debug\net6.0\Database.dll
 E:\CRUD-6.0\CRUD.BLL\bin\Debug\net6.0\CRUD.Repository.pdb
 E:\CRUD-6.0\CRUD.BLL\bin\Debug\net6.0\Database.pdb
+D:\C#\CRUD-6.0\CRUD.BLL\bin\Debug\net6.0\CRUD.Repository.dll
+D:\C#\CRUD-6.0\CRUD.BLL\bin\Debug\net6.0\Database.dll
+D:\C#\CRUD-6.0\CRUD.BLL\bin\Debug\net6.0\CRUD.Repository.pdb
+D:\C#\CRUD-6.0\CRUD.BLL\bin\Debug\net6.0\Database.pdb
+D:\C#\CRUD-6.0\CRUD.BLL\obj\Debug\net6.0\refint\CRUD.BLL.dll

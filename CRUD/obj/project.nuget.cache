@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EAvsmR7rANUZK9L5PUSe0ZbEq/d+oEKHbeSJ9pTigbxrwlKPaMuFvRDv5n5bJb08l+vid652S7a5C3GaFOkQAQ==",
+  "dgSpecHash": "2q0Rz0QNljbYWQmImxzuLbwSywA/HWlMI5CXCfVfwNcMvNUFQuKvptawAXHWAsVudmu6OwncE9htrywz3XAi7A==",
   "success": true,
   "projectFilePath": "D:\\C#\\CRUD-6.0\\CRUD\\CRUD.csproj",
   "expectedPackageFiles": [
@@ -66,12 +66,5 @@
     "C:\\Users\\imran\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\C#\\CRUD-6.0\\CRUD\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
