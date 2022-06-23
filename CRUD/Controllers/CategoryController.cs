@@ -23,7 +23,7 @@ namespace CRUD.Controllers
         public async Task<IActionResult> AddCategoryAsync([FromBody] ItemCategory category)
         {
             if (ModelState.IsValid)
-            {
+            { 
                 var data = await _categoryManager.AddAsync(category);
                 if (data.Succeeded)
                 {

@@ -863,6 +863,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CRUD.BLL.Abstraction": "1.0.0",
+          "CRUD.Repository": "1.0.0",
           "CRUD.Repository.Abstraction": "1.0.0"
         },
         "compile": {
@@ -2668,5 +2669,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\C#\\CRUD-6.0\\CRUD\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

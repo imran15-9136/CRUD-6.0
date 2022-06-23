@@ -25,6 +25,9 @@ namespace CRUD.Configuration.Mapping
             CreateMap<ItemCategoryReturnDto, ItemCategory>();
 
             CreateMap<ItemCreateDto, Item>();
+
+            CreateMap<EmployeeCreateDto, Employees>();
+            CreateMap<EmployeeGroupCreateDto, EmployeeGroup>();
         }
     }
 }
