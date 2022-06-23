@@ -10,11 +10,11 @@
         "projectUniqueName": "D:\\C#\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj",
         "projectName": "CRUD.Repository.Abstraction",
         "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj",
-        "packagesPath": "C:\\Users\\Imran\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\imran\\.nuget\\packages\\",
         "outputPath": "D:\\C#\\CRUD-6.0\\CRUD.Repository.Abstraction\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -68,11 +68,11 @@
         "projectUniqueName": "D:\\C#\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj",
         "projectName": "CRUD.Repository",
         "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj",
-        "packagesPath": "C:\\Users\\Imran\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\imran\\.nuget\\packages\\",
         "outputPath": "D:\\C#\\CRUD-6.0\\CRUD.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -119,7 +119,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -129,11 +129,11 @@
         "projectUniqueName": "D:\\C#\\CRUD-6.0\\Database\\Database.csproj",
         "projectName": "Database",
         "projectPath": "D:\\C#\\CRUD-6.0\\Database\\Database.csproj",
-        "packagesPath": "C:\\Users\\Imran\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\imran\\.nuget\\packages\\",
         "outputPath": "D:\\C#\\CRUD-6.0\\Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -207,7 +207,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -217,11 +217,11 @@
         "projectUniqueName": "D:\\C#\\CRUD-6.0\\Models\\Models.csproj",
         "projectName": "Models",
         "projectPath": "D:\\C#\\CRUD-6.0\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\Imran\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\imran\\.nuget\\packages\\",
         "outputPath": "D:\\C#\\CRUD-6.0\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -267,7 +267,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

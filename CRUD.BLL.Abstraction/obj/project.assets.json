@@ -128,7 +128,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Imran\\.nuget\\packages\\": {}
+    "C:\\Users\\imran\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -136,11 +136,11 @@
       "projectUniqueName": "D:\\C#\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj",
       "projectName": "CRUD.BLL.Abstraction",
       "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj",
-      "packagesPath": "C:\\Users\\Imran\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\imran\\.nuget\\packages\\",
       "outputPath": "D:\\C#\\CRUD-6.0\\CRUD.BLL.Abstraction\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -184,7 +184,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
