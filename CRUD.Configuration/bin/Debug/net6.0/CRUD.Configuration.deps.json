@@ -502,6 +502,7 @@
       "CRUD.BLL/1.0.0": {
         "dependencies": {
           "CRUD.BLL.Abstraction": "1.0.0",
+          "CRUD.Repository": "1.0.0",
           "CRUD.Repository.Abstraction": "1.0.0"
         },
         "runtime": {

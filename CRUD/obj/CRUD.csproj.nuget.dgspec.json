@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\CRUD-6.0\\CRUD\\CRUD.csproj": {}
+    "E:\\CRUD-6.0\\CRUD\\CRUD.csproj": {}
   },
   "projects": {
-    "D:\\C#\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj": {
+    "E:\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj",
+        "projectUniqueName": "E:\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj",
         "projectName": "CRUD.BLL.Abstraction",
-        "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj",
-        "packagesPath": "C:\\Users\\imran\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\CRUD-6.0\\CRUD.BLL.Abstraction\\obj\\",
+        "projectPath": "E:\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "E:\\CRUD-6.0\\CRUD.BLL.Abstraction\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\C#\\CRUD-6.0\\Models\\Models.csproj": {
-                "projectPath": "D:\\C#\\CRUD-6.0\\Models\\Models.csproj"
+              "E:\\CRUD-6.0\\Models\\Models.csproj": {
+                "projectPath": "E:\\CRUD-6.0\\Models\\Models.csproj"
               }
             }
           }
@@ -62,17 +62,17 @@
         }
       }
     },
-    "D:\\C#\\CRUD-6.0\\CRUD.BLL\\CRUD.BLL.csproj": {
+    "E:\\CRUD-6.0\\CRUD.BLL\\CRUD.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\CRUD-6.0\\CRUD.BLL\\CRUD.BLL.csproj",
+        "projectUniqueName": "E:\\CRUD-6.0\\CRUD.BLL\\CRUD.BLL.csproj",
         "projectName": "CRUD.BLL",
-        "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.BLL\\CRUD.BLL.csproj",
-        "packagesPath": "C:\\Users\\imran\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\CRUD-6.0\\CRUD.BLL\\obj\\",
+        "projectPath": "E:\\CRUD-6.0\\CRUD.BLL\\CRUD.BLL.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "E:\\CRUD-6.0\\CRUD.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,11 +86,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\C#\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj": {
-                "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj"
+              "E:\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj": {
+                "projectPath": "E:\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj"
               },
-              "D:\\C#\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj": {
-                "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj"
+              "E:\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj": {
+                "projectPath": "E:\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj"
+              },
+              "E:\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj": {
+                "projectPath": "E:\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj"
               }
             }
           }
@@ -123,17 +126,17 @@
         }
       }
     },
-    "D:\\C#\\CRUD-6.0\\CRUD.Configuration\\CRUD.Configuration.csproj": {
+    "E:\\CRUD-6.0\\CRUD.Configuration\\CRUD.Configuration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\CRUD-6.0\\CRUD.Configuration\\CRUD.Configuration.csproj",
+        "projectUniqueName": "E:\\CRUD-6.0\\CRUD.Configuration\\CRUD.Configuration.csproj",
         "projectName": "CRUD.Configuration",
-        "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.Configuration\\CRUD.Configuration.csproj",
-        "packagesPath": "C:\\Users\\imran\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\CRUD-6.0\\CRUD.Configuration\\obj\\",
+        "projectPath": "E:\\CRUD-6.0\\CRUD.Configuration\\CRUD.Configuration.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "E:\\CRUD-6.0\\CRUD.Configuration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -147,17 +150,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\C#\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj": {
-                "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj"
+              "E:\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj": {
+                "projectPath": "E:\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj"
               },
-              "D:\\C#\\CRUD-6.0\\CRUD.BLL\\CRUD.BLL.csproj": {
-                "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.BLL\\CRUD.BLL.csproj"
+              "E:\\CRUD-6.0\\CRUD.BLL\\CRUD.BLL.csproj": {
+                "projectPath": "E:\\CRUD-6.0\\CRUD.BLL\\CRUD.BLL.csproj"
               },
-              "D:\\C#\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj": {
-                "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj"
+              "E:\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj": {
+                "projectPath": "E:\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj"
               },
-              "D:\\C#\\CRUD-6.0\\Database\\Database.csproj": {
-                "projectPath": "D:\\C#\\CRUD-6.0\\Database\\Database.csproj"
+              "E:\\CRUD-6.0\\Database\\Database.csproj": {
+                "projectPath": "E:\\CRUD-6.0\\Database\\Database.csproj"
               }
             }
           }
@@ -204,17 +207,17 @@
         }
       }
     },
-    "D:\\C#\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj": {
+    "E:\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj",
+        "projectUniqueName": "E:\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj",
         "projectName": "CRUD.Repository.Abstraction",
-        "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj",
-        "packagesPath": "C:\\Users\\imran\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\CRUD-6.0\\CRUD.Repository.Abstraction\\obj\\",
+        "projectPath": "E:\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "E:\\CRUD-6.0\\CRUD.Repository.Abstraction\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -228,8 +231,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\C#\\CRUD-6.0\\Models\\Models.csproj": {
-                "projectPath": "D:\\C#\\CRUD-6.0\\Models\\Models.csproj"
+              "E:\\CRUD-6.0\\Models\\Models.csproj": {
+                "projectPath": "E:\\CRUD-6.0\\Models\\Models.csproj"
               }
             }
           }
@@ -262,17 +265,17 @@
         }
       }
     },
-    "D:\\C#\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj": {
+    "E:\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj",
+        "projectUniqueName": "E:\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj",
         "projectName": "CRUD.Repository",
-        "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj",
-        "packagesPath": "C:\\Users\\imran\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\CRUD-6.0\\CRUD.Repository\\obj\\",
+        "projectPath": "E:\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "E:\\CRUD-6.0\\CRUD.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -286,11 +289,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\C#\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj": {
-                "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj"
+              "E:\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj": {
+                "projectPath": "E:\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj"
               },
-              "D:\\C#\\CRUD-6.0\\Database\\Database.csproj": {
-                "projectPath": "D:\\C#\\CRUD-6.0\\Database\\Database.csproj"
+              "E:\\CRUD-6.0\\Database\\Database.csproj": {
+                "projectPath": "E:\\CRUD-6.0\\Database\\Database.csproj"
               }
             }
           }
@@ -323,17 +326,17 @@
         }
       }
     },
-    "D:\\C#\\CRUD-6.0\\CRUD\\CRUD.csproj": {
+    "E:\\CRUD-6.0\\CRUD\\CRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\CRUD-6.0\\CRUD\\CRUD.csproj",
+        "projectUniqueName": "E:\\CRUD-6.0\\CRUD\\CRUD.csproj",
         "projectName": "CRUD",
-        "projectPath": "D:\\C#\\CRUD-6.0\\CRUD\\CRUD.csproj",
-        "packagesPath": "C:\\Users\\imran\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\CRUD-6.0\\CRUD\\obj\\",
+        "projectPath": "E:\\CRUD-6.0\\CRUD\\CRUD.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "E:\\CRUD-6.0\\CRUD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -347,14 +350,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\C#\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj": {
-                "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj"
+              "E:\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj": {
+                "projectPath": "E:\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj"
               },
-              "D:\\C#\\CRUD-6.0\\CRUD.Configuration\\CRUD.Configuration.csproj": {
-                "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.Configuration\\CRUD.Configuration.csproj"
+              "E:\\CRUD-6.0\\CRUD.Configuration\\CRUD.Configuration.csproj": {
+                "projectPath": "E:\\CRUD-6.0\\CRUD.Configuration\\CRUD.Configuration.csproj"
               },
-              "D:\\C#\\CRUD-6.0\\Database\\Database.csproj": {
-                "projectPath": "D:\\C#\\CRUD-6.0\\Database\\Database.csproj"
+              "E:\\CRUD-6.0\\Database\\Database.csproj": {
+                "projectPath": "E:\\CRUD-6.0\\Database\\Database.csproj"
               }
             }
           }
@@ -369,6 +372,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AspNetCore.Reporting": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.1.1, )"
@@ -383,9 +390,21 @@
               "target": "Package",
               "version": "[6.0.1, )"
             },
+            "ReportViewerCore.NETCore": {
+              "target": "Package",
+              "version": "[15.1.16, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -410,17 +429,17 @@
         }
       }
     },
-    "D:\\C#\\CRUD-6.0\\Database\\Database.csproj": {
+    "E:\\CRUD-6.0\\Database\\Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\CRUD-6.0\\Database\\Database.csproj",
+        "projectUniqueName": "E:\\CRUD-6.0\\Database\\Database.csproj",
         "projectName": "Database",
-        "projectPath": "D:\\C#\\CRUD-6.0\\Database\\Database.csproj",
-        "packagesPath": "C:\\Users\\imran\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\CRUD-6.0\\Database\\obj\\",
+        "projectPath": "E:\\CRUD-6.0\\Database\\Database.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "E:\\CRUD-6.0\\Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -434,8 +453,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\C#\\CRUD-6.0\\Models\\Models.csproj": {
-                "projectPath": "D:\\C#\\CRUD-6.0\\Models\\Models.csproj"
+              "E:\\CRUD-6.0\\Models\\Models.csproj": {
+                "projectPath": "E:\\CRUD-6.0\\Models\\Models.csproj"
               }
             }
           }
@@ -498,17 +517,17 @@
         }
       }
     },
-    "D:\\C#\\CRUD-6.0\\Models\\Models.csproj": {
+    "E:\\CRUD-6.0\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\CRUD-6.0\\Models\\Models.csproj",
+        "projectUniqueName": "E:\\CRUD-6.0\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "D:\\C#\\CRUD-6.0\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\imran\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\CRUD-6.0\\Models\\obj\\",
+        "projectPath": "E:\\CRUD-6.0\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "E:\\CRUD-6.0\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
