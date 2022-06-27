@@ -24,7 +24,9 @@ namespace CRUD.Controllers
             parameters.Add("rp1", "Welcome to Codebehind");
             LocalReport localReport = new LocalReport(path);
             var result = localReport.Execute(RenderType.Pdf, extension, parameters, mimtype);
+            //return File(result.MainStream, "applicaiton/pdf");
             return File(result.MainStream, "applicaiton/pdf");
+            
 
         }
     }
