@@ -34,4 +34,10 @@
 	  <ProjectReference Include="..\CRUD.Configuration\CRUD.Configuration.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="wwwroot\ReportFiles\Report1.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

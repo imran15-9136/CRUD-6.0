@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HKXArSsIJfpFkTJZz8CGW9dAmMpiXCMXaohDgUOeld4=",
+  "Hash": "/m+2xwM0B9eSxT7e0IlaU9fuqDBgXTuFArsqDliHUFo=",
   "Source": "CRUD",
   "BasePath": "_content/CRUD",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CRUD\\wwwroot",
       "Source": "CRUD",
-      "ContentRoot": "E:\\CRUD-6.0\\CRUD\\wwwroot\\",
+      "ContentRoot": "D:\\C#\\CRUD-6.0\\CRUD\\wwwroot\\",
       "BasePath": "_content/CRUD",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\CRUD-6.0\\CRUD\\wwwroot\\Items\\44009b2c-defb-42ad-84de-080459d7f2e7_scanner_20171220_090015.jpg",
+      "Identity": "D:\\C#\\CRUD-6.0\\CRUD\\wwwroot\\Items\\44009b2c-defb-42ad-84de-080459d7f2e7_scanner_20171220_090015.jpg",
       "SourceId": "CRUD",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CRUD-6.0\\CRUD\\wwwroot\\",
+      "ContentRoot": "D:\\C#\\CRUD-6.0\\CRUD\\wwwroot\\",
       "BasePath": "_content/CRUD",
       "RelativePath": "Items/44009b2c-defb-42ad-84de-080459d7f2e7_scanner_20171220_090015.jpg",
       "AssetKind": "All",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Items\\44009b2c-defb-42ad-84de-080459d7f2e7_scanner_20171220_090015.jpg"
+    },
+    {
+      "Identity": "D:\\C#\\CRUD-6.0\\CRUD\\wwwroot\\ReportFiles\\Report1.rdlc",
+      "SourceId": "CRUD",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\CRUD-6.0\\CRUD\\wwwroot\\",
+      "BasePath": "_content/CRUD",
+      "RelativePath": "ReportFiles/Report1.rdlc",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ReportFiles\\Report1.rdlc"
     }
   ]
 }

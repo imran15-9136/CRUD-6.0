@@ -1925,19 +1925,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {}
+    "C:\\Users\\imran\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CRUD-6.0\\CRUD.BLL\\CRUD.BLL.csproj",
+      "projectUniqueName": "D:\\C#\\CRUD-6.0\\CRUD.BLL\\CRUD.BLL.csproj",
       "projectName": "CRUD.BLL",
-      "projectPath": "E:\\CRUD-6.0\\CRUD.BLL\\CRUD.BLL.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "E:\\CRUD-6.0\\CRUD.BLL\\obj\\",
+      "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.BLL\\CRUD.BLL.csproj",
+      "packagesPath": "C:\\Users\\imran\\.nuget\\packages\\",
+      "outputPath": "D:\\C#\\CRUD-6.0\\CRUD.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1951,14 +1951,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj": {
-              "projectPath": "E:\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj"
+            "D:\\C#\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj": {
+              "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj"
             },
-            "E:\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj": {
-              "projectPath": "E:\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj"
+            "D:\\C#\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj": {
+              "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.Repository.Abstraction\\CRUD.Repository.Abstraction.csproj"
             },
-            "E:\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj": {
-              "projectPath": "E:\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj"
+            "D:\\C#\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj": {
+              "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.Repository\\CRUD.Repository.csproj"
             }
           }
         }
