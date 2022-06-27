@@ -111,12 +111,28 @@ namespace CRUD.Controllers
         public IActionResult Get(string reportName, string reportType)
         {
             var reportFileByteString = reportService.GenerateReportAsync(reportName, reportType);
-            return File(reportFileByteString, MediaTypeNames.Application.Octet, reportName + ".pdf");
+            return File(reportFileByteString, MediaTypeNames.Application.Octet, GetReportName(reportName, reportType));
         }
 
-        //private string getReportName()
-        //{
+        private string GetReportName(string reportName, string reportType)
+        {
+            var outputFileName = reportName + ".pdf";
 
-        //}
+            switch (reportType.ToUpper())
+            {
+                default:
+                case "PDF":
+                    outputFileName = reportName + ".pdf";
+                    break;
+                case "XLS":
+                    outputFileName = reportName + ".xls";
+                    break;
+                case "WORD":
+                    outputFileName = reportName + ".doc";
+                    break;
+            }
+
+            return outputFileName;
+        }
     }
 }
