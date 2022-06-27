@@ -2,6 +2,6 @@
 {
     public interface IReportService
     {
-        byte[] GenerateReportAsync(string reportName, string reporType);
+        public byte[] GenerateReportAsync(string reportName, string reporType);
     }
 }

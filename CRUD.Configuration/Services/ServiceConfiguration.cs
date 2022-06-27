@@ -40,6 +40,7 @@ namespace CRUD.Configuration.Services
 
             services.AddTransient<IEmployeeGroupManager, EmployeeGroupManager>();
             services.AddTransient<IEmployeeGroupRepository, EmployeeGroupRepository>();
+
         }
     }
 }

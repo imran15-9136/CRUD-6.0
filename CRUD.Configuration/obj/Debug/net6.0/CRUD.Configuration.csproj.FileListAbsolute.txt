@@ -47,6 +47,7 @@ D:\C#\CRUD-6.0\CRUD.Configuration\obj\Debug\net6.0\CRUD.Configuration.csproj.Cop
 D:\C#\CRUD-6.0\CRUD.Configuration\obj\Debug\net6.0\CRUD.Configuration.dll
 D:\C#\CRUD-6.0\CRUD.Configuration\obj\Debug\net6.0\ref\CRUD.Configuration.dll
 D:\C#\CRUD-6.0\CRUD.Configuration\obj\Debug\net6.0\CRUD.Configuration.pdb
+D:\C#\CRUD-6.0\CRUD.Configuration\obj\Debug\net6.0\refint\CRUD.Configuration.dll
 E:\CRUD-6.0\CRUD.Configuration\bin\Debug\net6.0\CRUD.Configuration.deps.json
 E:\CRUD-6.0\CRUD.Configuration\bin\Debug\net6.0\CRUD.Configuration.dll
 E:\CRUD-6.0\CRUD.Configuration\bin\Debug\net6.0\CRUD.Configuration.pdb
@@ -72,4 +73,3 @@ E:\CRUD-6.0\CRUD.Configuration\obj\Debug\net6.0\CRUD.Configuration.dll
 E:\CRUD-6.0\CRUD.Configuration\obj\Debug\net6.0\refint\CRUD.Configuration.dll
 E:\CRUD-6.0\CRUD.Configuration\obj\Debug\net6.0\CRUD.Configuration.pdb
 E:\CRUD-6.0\CRUD.Configuration\obj\Debug\net6.0\ref\CRUD.Configuration.dll
-D:\C#\CRUD-6.0\CRUD.Configuration\obj\Debug\net6.0\refint\CRUD.Configuration.dll

@@ -7,11 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\ReportFiles\EmployeeListReport.rdlc" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="wwwroot\ReportFiles\EmployeeListReport.rdlc" />
+    <Content Remove="ReportFiles\EmployeeListReport.rdlc" />
+    <Content Remove="ReportFiles\Report1.rdlc" />
   </ItemGroup>
 
   <ItemGroup>

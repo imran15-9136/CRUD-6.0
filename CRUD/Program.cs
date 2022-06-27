@@ -1,4 +1,5 @@
-﻿using Database.Database;
+﻿using CRUD.ReportService;
+using Database.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System.Configuration;
@@ -9,6 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
+builder.Services.AddScoped<IReportService, ReportService>();
+
 builder.Services.AddCors(option =>
 {
     option.AddPolicy("EnableCORS", builders =>
@@ -18,6 +21,8 @@ builder.Services.AddCors(option =>
         builders.AllowAnyMethod();
     });
 });
+
+builder.Services.AddMvc(m=> m.EnableEndpointRouting = false);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -39,6 +44,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseRouting();
 
 app.UseCors("EnableCORS");
 

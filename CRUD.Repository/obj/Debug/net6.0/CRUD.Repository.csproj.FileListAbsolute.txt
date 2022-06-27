@@ -35,6 +35,7 @@ D:\C#\CRUD-6.0\CRUD.Repository\obj\Debug\net6.0\CRUD.Repository.csproj.CopyCompl
 D:\C#\CRUD-6.0\CRUD.Repository\obj\Debug\net6.0\CRUD.Repository.dll
 D:\C#\CRUD-6.0\CRUD.Repository\obj\Debug\net6.0\ref\CRUD.Repository.dll
 D:\C#\CRUD-6.0\CRUD.Repository\obj\Debug\net6.0\CRUD.Repository.pdb
+D:\C#\CRUD-6.0\CRUD.Repository\obj\Debug\net6.0\refint\CRUD.Repository.dll
 E:\CRUD-6.0\CRUD.Repository\bin\Debug\net6.0\CRUD.Repository.deps.json
 E:\CRUD-6.0\CRUD.Repository\bin\Debug\net6.0\CRUD.Repository.dll
 E:\CRUD-6.0\CRUD.Repository\bin\Debug\net6.0\CRUD.Repository.pdb
@@ -54,4 +55,3 @@ E:\CRUD-6.0\CRUD.Repository\obj\Debug\net6.0\CRUD.Repository.dll
 E:\CRUD-6.0\CRUD.Repository\obj\Debug\net6.0\refint\CRUD.Repository.dll
 E:\CRUD-6.0\CRUD.Repository\obj\Debug\net6.0\CRUD.Repository.pdb
 E:\CRUD-6.0\CRUD.Repository\obj\Debug\net6.0\ref\CRUD.Repository.dll
-D:\C#\CRUD-6.0\CRUD.Repository\obj\Debug\net6.0\refint\CRUD.Repository.dll

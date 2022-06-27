@@ -27,6 +27,7 @@ D:\C#\CRUD-6.0\CRUD.Repository.Abstraction\obj\Debug\net6.0\CRUD.Repository.Abst
 D:\C#\CRUD-6.0\CRUD.Repository.Abstraction\obj\Debug\net6.0\CRUD.Repository.Abstraction.dll
 D:\C#\CRUD-6.0\CRUD.Repository.Abstraction\obj\Debug\net6.0\ref\CRUD.Repository.Abstraction.dll
 D:\C#\CRUD-6.0\CRUD.Repository.Abstraction\obj\Debug\net6.0\CRUD.Repository.Abstraction.pdb
+D:\C#\CRUD-6.0\CRUD.Repository.Abstraction\obj\Debug\net6.0\refint\CRUD.Repository.Abstraction.dll
 E:\CRUD-6.0\CRUD.Repository.Abstraction\bin\Debug\net6.0\CRUD.Repository.Abstraction.deps.json
 E:\CRUD-6.0\CRUD.Repository.Abstraction\bin\Debug\net6.0\CRUD.Repository.Abstraction.dll
 E:\CRUD-6.0\CRUD.Repository.Abstraction\bin\Debug\net6.0\CRUD.Repository.Abstraction.pdb
@@ -42,4 +43,3 @@ E:\CRUD-6.0\CRUD.Repository.Abstraction\obj\Debug\net6.0\CRUD.Repository.Abstrac
 E:\CRUD-6.0\CRUD.Repository.Abstraction\obj\Debug\net6.0\refint\CRUD.Repository.Abstraction.dll
 E:\CRUD-6.0\CRUD.Repository.Abstraction\obj\Debug\net6.0\CRUD.Repository.Abstraction.pdb
 E:\CRUD-6.0\CRUD.Repository.Abstraction\obj\Debug\net6.0\ref\CRUD.Repository.Abstraction.dll
-D:\C#\CRUD-6.0\CRUD.Repository.Abstraction\obj\Debug\net6.0\refint\CRUD.Repository.Abstraction.dll
