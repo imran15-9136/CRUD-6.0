@@ -5349,19 +5349,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {}
+    "C:\\Users\\imran\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CRUD-6.0\\CRUD\\CRUD.csproj",
+      "projectUniqueName": "D:\\C#\\CRUD-6.0\\CRUD\\CRUD.csproj",
       "projectName": "CRUD",
-      "projectPath": "E:\\CRUD-6.0\\CRUD\\CRUD.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "E:\\CRUD-6.0\\CRUD\\obj\\",
+      "projectPath": "D:\\C#\\CRUD-6.0\\CRUD\\CRUD.csproj",
+      "packagesPath": "C:\\Users\\imran\\.nuget\\packages\\",
+      "outputPath": "D:\\C#\\CRUD-6.0\\CRUD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5375,14 +5375,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj": {
-              "projectPath": "E:\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj"
+            "D:\\C#\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj": {
+              "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.BLL.Abstraction\\CRUD.BLL.Abstraction.csproj"
             },
-            "E:\\CRUD-6.0\\CRUD.Configuration\\CRUD.Configuration.csproj": {
-              "projectPath": "E:\\CRUD-6.0\\CRUD.Configuration\\CRUD.Configuration.csproj"
+            "D:\\C#\\CRUD-6.0\\CRUD.Configuration\\CRUD.Configuration.csproj": {
+              "projectPath": "D:\\C#\\CRUD-6.0\\CRUD.Configuration\\CRUD.Configuration.csproj"
             },
-            "E:\\CRUD-6.0\\Database\\Database.csproj": {
-              "projectPath": "E:\\CRUD-6.0\\Database\\Database.csproj"
+            "D:\\C#\\CRUD-6.0\\Database\\Database.csproj": {
+              "projectPath": "D:\\C#\\CRUD-6.0\\Database\\Database.csproj"
             }
           }
         }

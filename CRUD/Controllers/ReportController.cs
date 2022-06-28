@@ -5,6 +5,10 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Reporting.WebForms;
 using System.Net.Mime;
+using AspNetCore.Reporting;
+using System.Reflection;
+using Models.Responses;
+
 
 namespace CRUD.Controllers
 {
@@ -69,23 +73,44 @@ namespace CRUD.Controllers
         //    return File(bytes, "application/pdf");
         //}
 
-        [HttpGet]
-        [Route("MyReport")]
+        [HttpGet("MyReport")]
         public IActionResult GetReport()
         {
             var reportViewer = new ReportViewer { ProcessingMode = ProcessingMode.Local };
-            reportViewer.LocalReport.ReportPath = $"{this._webHostEnvironment.WebRootPath}\\ReportFiles\\Report1.rdlc";
+            //reportViewer.LocalReport.ReportPath = $"{this._webHostEnvironment.WebRootPath}\\ReportFiles\\Report1.rdlc";
+
+            string fileDirPath = Assembly.GetExecutingAssembly().Location.Replace("CRUD.dll", string.Empty);
+            string rdlcFilePath = string.Format("{0}ReportFiles\\Report1.rdlc", fileDirPath);
+
+
+
+            List<ItemCategoryReturnDto> catagoryList = new List<ItemCategoryReturnDto>();
+
+            var cata1 = new ItemCategoryReturnDto { Id = 1, Name = "Food" };
+            var cata2 = new ItemCategoryReturnDto { Id = 2, Name = "Technology" };
+            var cata3 = new ItemCategoryReturnDto { Id = 3, Name = "Cosmatics" };
+            var cata4 = new ItemCategoryReturnDto { Id = 4, Name = "Equipment" };
+            var cata5 = new ItemCategoryReturnDto { Id = 5, Name = "Arams" };
+
+            catagoryList.Add(cata1);
+            catagoryList.Add(cata2);
+            catagoryList.Add(cata3);
+            catagoryList.Add(cata4);
+            catagoryList.Add(cata5);
+
+
+
 
             //var dataSource = "Select * From Employee List";
             //var path = $"{this._webHostEnvironment.WebRootPath}\\ReportFiles\\Report1.rdlc";
 
 
-            //reportViewer.LocalReport.DataSources.Add(new ReportDataSource("NameOfDataSource1", reportObjectList1));
+            //reportViewer.LocalReport.DataSources.Add(new ReportDataSource("NameOfDataSource1", catagoryList.AsEnumerable));
             //reportViewer.LocalReport.DataSources.Add(new ReportDataSource("NameOfDataSource2", reportObjectList1));
 
             //var reportDataSources = new[]
             //{
-            //    new ReportDataSource("DS_ItemList", reportData.ToList()),
+            //    new ReportDataSource("DS_ItemList", catagoryList.ToList()),
             //};
 
             //var reportParameters = new[]
@@ -133,6 +158,13 @@ namespace CRUD.Controllers
             }
 
             return outputFileName;
+        }
+
+        [HttpGet("ReportView")]
+        public ActionResult ReportView()
+        {
+            var result = reportService.ReportView();
+            return File(result, "applicaiton/pdf");
         }
     }
 }
