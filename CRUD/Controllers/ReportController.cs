@@ -17,11 +17,11 @@ namespace CRUD.Controllers
     public class ReportController : Controller
     {
         private readonly IWebHostEnvironment _webHostEnvironment;
-        private readonly IReportService reportService;
+        private readonly IReportService _reportService;
         public ReportController(IWebHostEnvironment webHostEnvironment, IReportService reportService)
         {
             _webHostEnvironment = webHostEnvironment;
-            this.reportService = reportService;
+            this._reportService = reportService;
         }
 
 
@@ -135,7 +135,7 @@ namespace CRUD.Controllers
         [HttpGet("{reportName}/reportType")]
         public IActionResult Get(string reportName, string reportType)
         {
-            var reportFileByteString = reportService.GenerateReportAsync(reportName, reportType);
+            var reportFileByteString = _reportService.GenerateReportAsync(reportName, reportType);
             return File(reportFileByteString, MediaTypeNames.Application.Octet, GetReportName(reportName, reportType));
         }
 
@@ -163,8 +163,9 @@ namespace CRUD.Controllers
         [HttpGet("ReportView")]
         public ActionResult ReportView()
         {
-            var result = reportService.ReportView();
-            return File(result, "applicaiton/pdf");
+            var result = _reportService.ReportView();
+            return File(result, System.Net.Mime.MediaTypeNames.Application.Octet, "Report1.xls");
+            //return File(result, "applicaiton/pdf");
         }
     }
 }

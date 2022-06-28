@@ -66,7 +66,7 @@ namespace CRUD.ReportService
         public byte[] ReportView()
         {
             string mimtype = "";
-            int extension = 1;
+            int pageIndex = 1;
             string fileDirPath = Assembly.GetExecutingAssembly().Location.Replace("CRUD.dll", string.Empty);
             string rdlcFilePath = string.Format("{0}ReportFiles\\Report1.rdlc", fileDirPath);
             Dictionary<string, string> parameters = new Dictionary<string, string>();
@@ -89,9 +89,10 @@ namespace CRUD.ReportService
 
             report.AddDataSource("DSCategory", catagoryList);
             System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
-            var result = report.Execute(RenderType.Pdf, extension, parameters, mimtype);
+            Encoding.GetEncoding("windows-1252");
+            var result = report.Execute(RenderType.Excel, pageIndex, parameters, mimtype);
             return result.MainStream;
-            //return File(result.MainStream, "applicaiton/pdf");
+           // return File(result.MainStream, System.Net.Mime.MediaTypeNames.Application.Octet,"");
 
         }
     }
