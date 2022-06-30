@@ -23,6 +23,8 @@ builder.Services.AddCors(option =>
 });
 
 builder.Services.AddMvc(m=> m.EnableEndpointRouting = false);
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

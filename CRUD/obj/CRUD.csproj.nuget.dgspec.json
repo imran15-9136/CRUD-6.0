@@ -394,6 +394,10 @@
               "target": "Package",
               "version": "[6.0.1, )"
             },
+            "Microsoft.ReportingServices.ReportViewerControl.WebForms": {
+              "target": "Package",
+              "version": "[150.1484.0, )"
+            },
             "ReportViewerCore.NETCore": {
               "target": "Package",
               "version": "[15.1.16, )"
