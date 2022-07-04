@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HKXArSsIJfpFkTJZz8CGW9dAmMpiXCMXaohDgUOeld4=",
+  "Hash": "ApoMTGQqFRKbH3y6Hw9nldEyqiwHnqPkm1et/leMOgY=",
   "Source": "CRUD",
   "BasePath": "_content/CRUD",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CRUD\\wwwroot",
       "Source": "CRUD",
-      "ContentRoot": "E:\\CRUD-6.0\\CRUD\\wwwroot\\",
+      "ContentRoot": "D:\\C#\\CRUD-6.0\\CRUD\\wwwroot\\",
       "BasePath": "_content/CRUD",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\CRUD-6.0\\CRUD\\wwwroot\\Items\\44009b2c-defb-42ad-84de-080459d7f2e7_scanner_20171220_090015.jpg",
+      "Identity": "D:\\C#\\CRUD-6.0\\CRUD\\wwwroot\\Items\\44009b2c-defb-42ad-84de-080459d7f2e7_scanner_20171220_090015.jpg",
       "SourceId": "CRUD",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CRUD-6.0\\CRUD\\wwwroot\\",
+      "ContentRoot": "D:\\C#\\CRUD-6.0\\CRUD\\wwwroot\\",
       "BasePath": "_content/CRUD",
       "RelativePath": "Items/44009b2c-defb-42ad-84de-080459d7f2e7_scanner_20171220_090015.jpg",
       "AssetKind": "All",

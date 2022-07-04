@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CRUD.ReportService
 {
-    public class ReportService : IReportService
+    public class ReportService : IReportServices
     {
         public byte[] GenerateReportAsync(string reportName, string reporType)
         {
@@ -42,6 +42,7 @@ namespace CRUD.ReportService
             return result.MainStream;
         }
 
+
         private RenderType GetRendertype(string reportType)
         {
             var renderType = RenderType.Pdf;
@@ -69,6 +70,7 @@ namespace CRUD.ReportService
             int pageIndex = 1;
             string fileDirPath = Assembly.GetExecutingAssembly().Location.Replace("CRUD.dll", string.Empty);
             string rdlcFilePath = string.Format("{0}ReportFiles\\Report1.rdlc", fileDirPath);
+
             Dictionary<string, string> parameters = new Dictionary<string, string>();
             //parameters.Add("rp1", "Welcome to Codebehind");
             LocalReport report = new LocalReport(rdlcFilePath);
