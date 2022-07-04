@@ -6,8 +6,8 @@ namespace CRUD.Controllers
     
     public class ReportViewController : Controller
     {
-        private readonly IReportService _reportService;
-        public ReportViewController(IReportService _reportService)
+        private readonly IReportServices _reportService;
+        public ReportViewController(IReportServices _reportService)
         {
             this._reportService = _reportService;
         }

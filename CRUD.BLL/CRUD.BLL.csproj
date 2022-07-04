@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AspNetCore.Reporting" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\CRUD.BLL.Abstraction\CRUD.BLL.Abstraction.csproj" />
     <ProjectReference Include="..\CRUD.Repository.Abstraction\CRUD.Repository.Abstraction.csproj" />
     <ProjectReference Include="..\CRUD.Repository\CRUD.Repository.csproj" />

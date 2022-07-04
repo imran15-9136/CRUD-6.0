@@ -1662,6 +1662,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "AspNetCore.Reporting": "2.1.0",
           "CRUD.BLL.Abstraction": "1.0.0",
           "CRUD.Repository": "1.0.0",
           "CRUD.Repository.Abstraction": "1.0.0"
@@ -5342,6 +5343,7 @@
       "Database >= 1.0.0",
       "Microsoft.AspNetCore.Cors >= 2.2.0",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.1",
+      "Microsoft.ReportingServices.ReportViewerControl.WebForms >= 150.1484.0",
       "ReportViewerCore.NETCore >= 15.1.16",
       "Swashbuckle.AspNetCore >= 6.2.3",
       "System.Drawing.Common >= 6.0.0",
@@ -5414,6 +5416,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.1, )"
+          },
+          "Microsoft.ReportingServices.ReportViewerControl.WebForms": {
+            "target": "Package",
+            "version": "[150.1484.0, )"
           },
           "ReportViewerCore.NETCore": {
             "target": "Package",

@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddScoped<IReportService, ReportService>();
+//builder.Services.AddScoped<IReportServices, ReportService>();
 
 builder.Services.AddCors(option =>
 {

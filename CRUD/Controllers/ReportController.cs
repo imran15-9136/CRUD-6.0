@@ -8,7 +8,7 @@ using System.Net.Mime;
 using AspNetCore.Reporting;
 using System.Reflection;
 using Models.Responses;
-
+using CRUD.BLL.Abstraction.Report;
 
 namespace CRUD.Controllers
 {
@@ -26,58 +26,14 @@ namespace CRUD.Controllers
 
 
 
-        //public IActionResult Index()
-        //{
-        //    string mimtype = "";
-        //    int extension = 1;
-        //    var path = $"{this._webHostEnvironment.WebRootPath}\\ReportFiles\\EmployeeListReport.rdlc";
-        //    Dictionary<string, string> parameters = new Dictionary<string, string>();
-        //    parameters.Add("rp1", "Welcome to Codebehind");
-        //    LocalReport localReport = new LocalReport(path);
-        //    var result = localReport.Execute(RenderType.Pdf, extension, parameters, mimtype);
-        //    return File(result.MainStream, "applicaiton/pdf");
-
-        //}
-
-        //public IActionResult GetEmployeeList()
-        //{
-        //    var reportData = _db.VW_Items.AsQueryable();
-
-
-        //    if (model.ItemTypeId != null && model.ItemTypeId > 0)
-        //    {
-        //        reportData = reportData.Where(c => c.ItemTypeId == model.ItemTypeId);
-        //    }
-
-        //    if (model.ItemId != null && model.ItemId > 0)
-        //    {
-        //        reportData = reportData.Where(c => c.ItemId == model.ItemId);
-        //    }
-
-        //    reportData = reportData.OrderBy(c => c.ItemCreateDate);
-
-        //    var reportPath = Request.MapPath(Request.ApplicationPath) + @"\Reports\Item\ItemList.rdlc";
-        //    var reportDataSources = new[]
-        //    {
-        //        new ReportDataSource("DS_ItemList", reportData.ToList()),
-        //    };
-
-        //    var reportParameters = new[]
-        //    {
-        //        new ReportParameter("ItemType", model.ItemTypeName)
-        //    };
-
-        //    ReportViewer reportViewer = ReportBuilder.GetReportViewer(reportPath, reportDataSources, reportParameters);
-
-        //    var bytes = ReportBuilder.GetBytesArray(reportViewer);
-        //    return File(bytes, "application/pdf");
-        //}
-
         [HttpGet("MyReport")]
         public IActionResult GetReport()
         {
             var reportViewer = new ReportViewer { ProcessingMode = ProcessingMode.Local };
             //reportViewer.LocalReport.ReportPath = $"{this._webHostEnvironment.WebRootPath}\\ReportFiles\\Report1.rdlc";
+
+
+
 
             string fileDirPath = Assembly.GetExecutingAssembly().Location.Replace("CRUD.dll", string.Empty);
             string rdlcFilePath = string.Format("{0}ReportFiles\\Report1.rdlc", fileDirPath);
@@ -126,16 +82,16 @@ namespace CRUD.Controllers
             string encoding;
             string extension;
 
-            var bytes = reportViewer.LocalReport.Render("application/pdf", null, out mimeType, out encoding, out extension, out streamids, out warnings);
+            var bytes = reportViewer.LocalReport.Render(System.Net.Mime.MediaTypeNames.Application.Pdf, null, out mimeType, out encoding, out extension, out streamids, out warnings);
 
             return File(bytes, "application/pdf");
         }
 
 
         [HttpGet("{reportName}/reportType")]
-        public IActionResult Get(string reportName, string reportType)
+        public async Task<IActionResult> Get(string reportName, string reportType)
         {
-            var reportFileByteString = _reportService.GenerateReportAsync(reportName, reportType);
+            var reportFileByteString = await _reportService.GenerateReportAsync(reportName, reportType);
             return File(reportFileByteString, MediaTypeNames.Application.Octet, GetReportName(reportName, reportType));
         }
 
@@ -161,10 +117,10 @@ namespace CRUD.Controllers
         }
 
         [HttpGet("ReportView")]
-        public ActionResult ReportView()
+        public async Task<IActionResult> ReportView()
         {
             var result = _reportService.ReportView();
-            return File(result, System.Net.Mime.MediaTypeNames.Application.Octet, "Report1.xls");
+            return File(result, System.Net.Mime.MediaTypeNames.Application.Pdf, "Report1.pdf");
             //return File(result, "applicaiton/pdf");
         }
     }
