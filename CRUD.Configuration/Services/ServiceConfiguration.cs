@@ -1,14 +1,18 @@
-﻿using CRUD.BLL.Abstraction.Category;
+﻿using CRUD.BLL.Abstraction.Auth;
+using CRUD.BLL.Abstraction.Category;
 using CRUD.BLL.Abstraction.Employee;
 using CRUD.BLL.Abstraction.Items;
 using CRUD.BLL.Abstraction.Report;
+using CRUD.BLL.Auth;
 using CRUD.BLL.Category;
 using CRUD.BLL.Employee;
 using CRUD.BLL.Items;
 using CRUD.BLL.Report;
+using CRUD.Repository.Abstraction.Auth;
 using CRUD.Repository.Abstraction.Category;
 using CRUD.Repository.Abstraction.Employee;
 using CRUD.Repository.Abstraction.Items;
+using CRUD.Repository.Auth;
 using CRUD.Repository.Category;
 using CRUD.Repository.Employee;
 using CRUD.Repository.Items;
@@ -44,6 +48,9 @@ namespace CRUD.Configuration.Services
             services.AddTransient<IEmployeeGroupRepository, EmployeeGroupRepository>();
 
             services.AddTransient<IReportService, ReportService>();
+
+            services.AddTransient<IAuthManager, AuthManager>();
+            services.AddTransient<IAuthRepository, AuthRepository>();
 
         }
     }
