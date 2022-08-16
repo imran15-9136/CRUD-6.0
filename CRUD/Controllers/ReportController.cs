@@ -33,8 +33,6 @@ namespace CRUD.Controllers
             //reportViewer.LocalReport.ReportPath = $"{this._webHostEnvironment.WebRootPath}\\ReportFiles\\Report1.rdlc";
 
 
-
-
             string fileDirPath = Assembly.GetExecutingAssembly().Location.Replace("CRUD.dll", string.Empty);
             string rdlcFilePath = string.Format("{0}ReportFiles\\Report1.rdlc", fileDirPath);
 
@@ -53,28 +51,6 @@ namespace CRUD.Controllers
             catagoryList.Add(cata3);
             catagoryList.Add(cata4);
             catagoryList.Add(cata5);
-
-
-
-
-            //var dataSource = "Select * From Employee List";
-            //var path = $"{this._webHostEnvironment.WebRootPath}\\ReportFiles\\Report1.rdlc";
-
-
-            //reportViewer.LocalReport.DataSources.Add(new ReportDataSource("NameOfDataSource1", catagoryList.AsEnumerable));
-            //reportViewer.LocalReport.DataSources.Add(new ReportDataSource("NameOfDataSource2", reportObjectList1));
-
-            //var reportDataSources = new[]
-            //{
-            //    new ReportDataSource("DS_ItemList", catagoryList.ToList()),
-            //};
-
-            //var reportParameters = new[]
-            //{
-            //    new ReportParameter("rp1","Code Behind Ltd.")
-            //};
-
-            //ReportViewer reportViewer1 = ReportBuilder.GetReportViewer(path, dataSource, reportParameters);
 
             Warning[] warnings;
             string[] streamids;
@@ -95,6 +71,15 @@ namespace CRUD.Controllers
             return File(reportFileByteString, MediaTypeNames.Application.Octet, GetReportName(reportName, reportType));
         }
 
+
+        [HttpGet("ReportView")]
+        public async Task<IActionResult> ReportView()
+        {
+            var result = _reportService.ReportView();
+            return File(result, System.Net.Mime.MediaTypeNames.Application.Pdf, "Report1.pdf");
+        }
+
+
         private string GetReportName(string reportName, string reportType)
         {
             var outputFileName = reportName + ".pdf";
@@ -114,14 +99,6 @@ namespace CRUD.Controllers
             }
 
             return outputFileName;
-        }
-
-        [HttpGet("ReportView")]
-        public async Task<IActionResult> ReportView()
-        {
-            var result = _reportService.ReportView();
-            return File(result, System.Net.Mime.MediaTypeNames.Application.Pdf, "Report1.pdf");
-            //return File(result, "applicaiton/pdf");
         }
     }
 }
