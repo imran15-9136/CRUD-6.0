@@ -22,5 +22,25 @@ namespace Database.Database
         public DbSet<OrderDetails> OrderDetails { get; set; }
         public DbSet<EmployeeGroup> EmployeeGroups { get; set; }
         public DbSet<Employees> Employees { get; set; }
+        public virtual DbSet<UserInfo> UserInfo { get; set; }
+
+
+
+
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<UserInfo>(entity =>
+            {
+                entity.HasNoKey();
+                entity.Property(e => e.Id).HasColumnName("Id");
+                entity.Property(e => e.DisplayName).HasMaxLength(60).IsUnicode(false);
+                entity.Property(e => e.UserName).HasMaxLength(30).IsUnicode(false);
+                entity.Property(e => e.Email).HasMaxLength(50).IsUnicode(false);
+                entity.Property(e => e.Password).HasMaxLength(20).IsUnicode(false);
+                entity.Property(e => e.CreatedDate).IsUnicode(false);
+             });
+
+        }
     }
 }

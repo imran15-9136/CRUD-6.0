@@ -1072,7 +1072,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
           "Microsoft.IdentityModel.Protocols": "6.15.0",
           "Models": "1.0.0",
-          "System.Configuration.ConfigurationManager": "6.0.0"
+          "System.Configuration.ConfigurationManager": "6.0.0",
+          "System.Runtime": "4.3.0"
         },
         "runtime": {
           "Database.dll": {}
