@@ -11,5 +11,6 @@ namespace CRUD.BLL.Abstraction.Auth
     public interface IAuthManager:IManager<UserInfo>
     {
         Task<UserInfo> GetUser(string email);
+        string Authenticate(UserInfo user);
     }
 }

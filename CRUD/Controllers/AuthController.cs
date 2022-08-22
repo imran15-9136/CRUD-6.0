@@ -18,7 +18,7 @@ namespace CRUD.Controllers
         {
             if (userInfo != null && userInfo.Email != null && userInfo.Password!=null)
             {
-                var user = _auth.GetUser(userInfo.Email);
+                var user = _auth.Authenticate(userInfo);
                 return Ok(user);
             }
 

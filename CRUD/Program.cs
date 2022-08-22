@@ -50,6 +50,7 @@ app.UseRouting();
 
 app.UseCors("EnableCORS");
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
