@@ -19,7 +19,7 @@ namespace CRUD.BLL.Auth
     {
         public readonly IAuthRepository _authRepository;
         public IConfiguration _configuration;
-        public AuthManager(IAuthRepository authRepository, IConfiguration _configuration, ) :base(authRepository)
+        public AuthManager(IAuthRepository authRepository, IConfiguration _configuration) :base(authRepository)
         {
             _authRepository = authRepository;
             this._configuration = _configuration;
